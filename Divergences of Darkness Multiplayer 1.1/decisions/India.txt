@@ -1,0 +1,259 @@
+political_decisions = {
+	  
+	form_india = {
+		potential = {
+			is_culture_group = south_asian
+			NOT = {
+				tag = MUG
+			}
+			OR = {
+				tag = HND
+				tag = BHA
+			}	
+		}
+		
+		allow = {
+		NOT = { war = yes }
+		  mass_politics = 1
+		  HND = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = { in_sphere = THIS } 
+					}
+				}
+			}
+			DRA = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = { in_sphere = THIS } 
+					}	
+				}
+			}
+		}
+		effect = {
+			prestige = 100
+			capital = 1236
+			change_tag = HND
+			DRA = { all_core = { add_core = HND } }
+			HND = { all_core = { add_core = HND } }
+			ENG_1321 = { add_core = HND }
+			NEP_1327 = { add_core = HND }
+			SIN_1288 = { add_core = HND }
+			2128 = { add_core = HND }
+			add_accepted_culture = tamil
+			add_accepted_culture = malayalam
+			add_accepted_culture = kannada
+			add_accepted_culture = marathi
+			add_accepted_culture = telegu
+			add_accepted_culture = bihari
+			add_accepted_culture = oriya
+			add_accepted_culture = avadhi
+			add_accepted_culture = kanauji
+			add_accepted_culture = panjabi
+			add_accepted_culture = gujarati
+			add_accepted_culture = kashmiri
+			add_accepted_culture = sindi
+			add_accepted_culture = rajput
+			add_accepted_culture = sinhala
+			add_accepted_culture = pashtun
+			add_accepted_culture = nepali
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = THIS
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+
+	form_dravida = {
+		potential = {
+			is_culture_group = dravidian
+			NOT = {
+				exists = BHA
+				exists = DRA
+			}
+		}
+		
+		allow = {
+		NOT = { war = yes }
+		  prestige = 100
+		  OR = {      # Delhi
+				1310 = { owner = { in_sphere = THIS } }
+				owns = 1310
+			}
+			OR = {      # Lucknow
+				1319 = { owner = { in_sphere = THIS } }
+				owns = 1319
+			}
+			OR = {      # Patna
+				1307 = { owner = { in_sphere = THIS } }
+				owns = 1307
+			}          
+			OR = {     # Calcutta
+				1302 = { owner = { in_sphere = THIS } }
+				owns = 1302
+			}
+			OR = {      # Cuttack
+				1283 = { owner = { in_sphere = THIS } }
+				owns = 1283
+			}          
+			OR = {     # Bhopal
+				1277 = { owner = { in_sphere = THIS } }
+				owns = 1277
+			}
+		}
+		effect = {
+			prestige = 20
+			badboy = 10
+			capital = 1304
+			change_tag = DRA
+			add_accepted_culture = tamil
+			add_accepted_culture = malayalam
+			add_accepted_culture = kannada
+			add_accepted_culture = marathi
+			add_accepted_culture = telegu
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = THIS
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	form_bharata = {
+		picture = chakra_bharata
+		potential = {
+			OR = {
+				tag = HND
+				tag = DRA
+				tag = MUG
+			}
+			NOT = {
+				exists = BHA
+			}
+		}
+		
+		allow = {
+			NOT = { war = yes }
+			OR = {
+				nationalism_n_imperialism = 1
+				year = 1860
+			}	
+			HND = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = { in_sphere = THIS } 
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 40
+			HND = { all_core = { add_core = BHA } }
+			MUG = { all_core = { add_core = BHA } }
+			change_tag = BHA
+			add_accepted_culture = marathi
+			add_accepted_culture = bihari
+			add_accepted_culture = avadhi
+			add_accepted_culture = kanauji
+			add_accepted_culture = panjabi
+			add_accepted_culture = gujarati
+			add_accepted_culture = rajput
+			add_accepted_culture = kashmiri
+			PAN_1224 = { add_core = BHA }
+			PAN_1227 = { add_core = BHA }
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = south_asian
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	AFG_punjab = { 
+	picture = Sadozai
+	potential = { 
+	tag = AFG 
+	NOT = { has_country_flag = PNJ_revolt }
+	NOT = { has_country_flag = PNJ_capital }
+	}
+	
+	allow = {
+	owns = 1229
+	owns = 1227
+	owns = 1228
+	owns = 1225
+	NOT = { PNJ = { exists = yes } }
+	}
+	
+	effect = { 
+	capital = 1227
+	set_country_flag = PNJ_capital
+	primary_culture = panjabi 
+	add_accepted_culture = pashtun
+	add_accepted_culture = kashmiri
+	PNJ = { all_core = { add_core = THIS } }
+	any_country = { limit = { tag = AFG government = feudal_monarchy } government = absolute_monarchy }
+	}
+	
+	}
+	
+	seize_bengal = {
+	
+	picture = Mughals
+		
+	potential = { 
+	OR = { 
+		tag = MUG
+		tag = HND
+		tag = BHA
+		tag = DRA
+	}
+	NOT = { has_country_flag = Bengal_MUG }
+	}
+	
+	allow = { 
+	owns = 1251
+	owns = 1257
+	owns = 1254
+	revolution_n_counterrevolution = 1
+	}
+	
+	effect = { 
+	BEN = { all_core = { add_core = THIS } }
+	add_accepted_culture = bengali
+	add_accepted_culture = assamese
+	add_accepted_culture = burmese
+	set_country_flag = Bengal_MUG
+	}
+	
+	}
+}

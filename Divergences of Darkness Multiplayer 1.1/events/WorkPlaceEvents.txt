@@ -1,0 +1,286 @@
+# --- Coal ---
+# Mine accident
+country_event = {
+	id = 12000
+	title = "EVTNAME12000"
+	desc = "EVTDESC12000"
+	picture = "Mining"
+	
+	trigger = {
+		any_owned_province = { state_scope = { has_pop_type = capitalists any_owned_province = { produces = coal } is_colonial = no } }
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		
+		modifier = {
+			factor = 0.9
+			safety_regulations = trinket_safety
+		}
+		modifier = {
+			factor = 2
+			safety_regulations = low_safety
+		}
+		modifier = {
+			factor = 6
+			safety_regulations = acceptable_safety
+		}
+		modifier = {
+			factor = 8
+			safety_regulations = good_safety
+		}		
+	}
+	
+	option = {
+		name = "EVTOPTA12000"
+		random_owned = {
+			limit = {
+				state_scope = {
+					produces = coal
+					has_pop_type = capitalists
+				}
+			}
+			state_scope = {
+				bureaucrats = { consciousness = 1 }
+				capitalists = { consciousness = 1 }
+				clerks = { consciousness = 1 }
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB12000"
+		labourers = { consciousness = 0.5 }
+	}
+}
+
+# Parlimentary Inquiry
+country_event = {
+	id = 12010
+	title = "EVTNAME12010"
+	desc = "EVTDESC12010"
+	picture = "Mining"
+	
+	trigger = {
+		any_owned_province = { produces = coal is_colonial = no }
+		plurality = 30
+		civilized = yes
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = democracy
+		}
+		child_labor = child_labor_legal
+		OR = {
+			safety_regulations = trinket_safety
+			safety_regulations = no_safety
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1800
+		modifier = {
+			factor = 0.8
+			plurality = 30
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 35
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { plurality = 30 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA12010"
+		add_country_modifier = { name = conservative_reaction duration = 1825 }
+		social_reform = low_safety
+	}
+	
+	option = {
+		name = "EVTOPTB12010"
+		add_country_modifier = { name = liberal_reaction duration = 2500 }
+	}
+}
+
+#The Girl in The Coal Mine
+province_event = {
+	title = "EVTNAME12020"
+	desc = "EVTDESC12020"
+	id = 12020
+	
+	trigger = {
+		owner = {
+			press_rights = free_press
+			child_labor = child_labor_legal
+		}
+		produces = coal
+		is_colonial = no
+		owner = { civilized = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.9
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { average_consciousness = 4 }
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 5
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA12020"
+		owner = { add_country_modifier = { name = national_tragedy duration = 365 } }
+	}
+}
+
+# Death In The Silk Fields
+province_event = {
+	id = 12090
+	title = "EVTNAME12090"
+	desc = "EVTDESC12090"
+	
+	trigger = {
+		produces = silk
+		owner = { silk = 10 }
+		NOT = { has_global_flag = workplace_events_disabled }
+	}
+	
+	mean_time_to_happen = {
+		months = 2400
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				has_province_modifier = silk_famine
+			}
+		}
+		modifier = {
+			factor = 0.9
+			NOT = {
+				poor_strata_everyday_needs = 0.5
+			}
+		}
+		modifier = {
+			factor = 1.5
+			poor_strata_everyday_needs = 0.9
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA12090"
+		any_pop = { militancy = 1 }
+		add_province_modifier = { name = silk_famine duration = 1500 }
+		ai_chance = { factor = 0.1 }
+	}
+	
+	option = {
+		name = "EVTOPTB12090"
+		silk = -10
+		add_province_modifier = { name = silk_famine duration = 750 }
+		owner = { treasury = -150 }
+		ai_chance = {
+			factor = 0.9
+			modifier = { factor = 0 NOT = { owner = { money = 160 } } }
+		}
+	}
+}
+
+# A Cure!
+province_event = {
+	id = 12100
+	title = "EVTNAME12100"
+	desc = "EVTDESC12100"
+	
+	trigger = {
+		has_province_modifier = silk_famine
+		NOT = { has_global_flag = workplace_events_disabled }
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		modifier = {
+			factor = 0.8
+			poor_strata_everyday_needs = 0.8
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				civilized = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA12100"
+		remove_province_modifier = silk_famine
+		any_pop = { militancy = -1 }
+		ai_chance = { factor = 0.1 }
+	}
+	
+	option = {
+		name = "EVTOPTB12100"
+		owner = {
+			any_owned = {
+				limit = { has_province_modifier = silk_famine }
+				remove_province_modifier = silk_famine
+			}
+			treasury = -150
+		}
+		ai_chance = {
+			factor = 0.9
+			modifier = { factor = 0 NOT = { owner = { money = 160 } } }
+		}
+	}
+}
+
+# Blood & Iron Mine
+province_event = {
+	id = 12120
+	title = "EVTNAME12120"
+	desc = "EVTDESC12120"
+		
+	trigger = {
+		produces = iron
+		NOT = { has_province_modifier = blood_and_iron_mine }
+		owner = { civilized = yes }
+		NOT = { has_global_flag = workplace_events_disabled }
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+		modifier = {
+			factor = 0.9
+			NOT = { average_militancy = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = no
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA12120"
+		add_province_modifier = { name = blood_and_iron_mine duration = 14600 }
+	}
+	
+	option = {
+		name = "EVTOPTB12120"
+		labourers = { militancy = -1 }
+	}
+}

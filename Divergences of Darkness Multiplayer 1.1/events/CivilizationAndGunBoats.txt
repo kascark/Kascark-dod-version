@@ -1,0 +1,1061 @@
+#####################################################################
+#																	#
+#         			Uncivilized Country Events						#
+#																	#
+#####################################################################
+#Notify from event 13200
+country_event = {
+	id = 13201
+	title = "EVTNAME13201"
+	desc = "EVTDESC13201"
+	news = yes
+	news_title = "EVTNAME13201_NEWS_TITLE"
+	news_desc_long = "EVTDESC13201_NEWS_LONG"
+	news_desc_medium = "EVTDESC13201_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC13201_NEWS_SHORT"
+	picture = "Outside_influences"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA13201"
+		leave_alliance = FROM
+		random_country = {
+			limit = {
+				tag = FROM
+				vassal_of = THIS
+			}
+			THIS = { release_vassal = FROM }
+		}
+		diplomatic_influence = {
+			who = FROM
+			value = -200
+		}
+		casus_belli = {
+			target = FROM
+			type = add_to_sphere
+			months = 12
+		}
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				FROM = {
+					NOT = { neighbour = THIS }
+					NOT = { any_owned_province = { port = yes } }
+					NOT = {	any_neighbor_country = { alliance_with = THIS } }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { brigades_compare = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB13201"
+		diplomatic_influence = {
+			who = FROM
+			value = -400
+		}
+		prestige_factor = -0.1
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				FROM = {
+					NOT = { brigades_compare = 0.5 }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 13202
+	title = "EVTNAME13202"
+	desc = "EVTDESC13202"
+	picture = "genevaconvention"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT13202OPTA"
+		badboy = 2
+		leave_alliance = FROM
+		random_country = {
+			limit = {
+				tag = FROM
+				vassal_of = THIS
+			}
+			THIS = {
+				release_vassal = FROM
+				casus_belli = { target = FROM type = make_puppet months = 120 }
+			}
+		}
+		diplomatic_influence = {
+			who = FROM
+			value = -200
+		}
+		random_country = {
+			limit = { tag = FROM NOT = { total_pops = 50000000 } }
+			add_casus_belli = {
+				target = THIS
+				type = add_to_sphere
+				months = 12
+			}
+		}
+		random_country = {
+			limit = { tag = FROM total_pops = 50000000 }
+			add_casus_belli = {
+				target = THIS
+				type = war_reparations
+				months = 12
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { ai = yes }
+				FROM = { NOT = { total_pops = 50000000 } }
+			}
+			owner = {
+				war = {
+					target = FROM
+					attacker_goal = {
+						casus_belli = add_to_sphere
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { ai = no }
+				FROM = { NOT = { total_pops = 50000000 } }
+			}
+			owner = {
+				war = {
+					target = FROM
+					attacker_goal = {
+						casus_belli = add_to_sphere
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				FROM = {
+					NOT = { neighbour = THIS }
+					NOT = { any_owned_province = { port = yes } }
+					NOT = {	any_neighbor_country = { alliance_with = THIS } }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				war_policy = pacifism
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 0.5
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.92
+				NOT = {
+					government = fascist_dictatorship
+					government = proletarian_dictatorship
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT13202OPTB"
+		diplomatic_influence = {
+			who = FROM
+			value = -200
+		}
+		prestige_factor = -0.1
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					government = fascist_dictatorship
+					government = proletarian_dictatorship
+				}
+			}
+		}
+	}
+}
+
+#The Opium War
+country_event = {
+	id = 13270
+	title = "EVTNAME13270"
+	desc = "EVTDESC13270"
+	news = yes
+	news_desc_long = "EVTDESC13270_NEWS_LONG"
+	news_desc_medium = "EVTDESC13270_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC13270_NEWS_SHORT"
+	picture = "Opiumwar"
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA13270"
+		prestige = -5
+		random_country = {
+			limit = {
+				tag = FROM
+				OR = {
+					owns = 1498 #Macao
+					owns = 1538 #Shanghai
+					owns = 1496 #Hong Kong
+					owns = 1566	#Qingdao
+					owns = 1481 #Lushun - Port Arthur
+					owns = 1569 #Weihai
+					owns = 1606 #Jiaxing
+					owns = 2681 #Taibei
+					owns = 2562 #Tainan
+					owns = 1499 #Hainan
+					owns = 2632 #Kwangchowan
+					#owns = 1540 #Nantong
+					owns = 1071 #Qeshm
+					owns = 1695 #Ifni
+			}
+		}
+		add_casus_belli = { target = THIS type = treaty_port_casus_belli months = 40 }
+		}
+		casus_belli = { target = FROM type = cut_down_to_size months = 12 }
+		random_country = {
+			limit = { tag = FROM NOT = { total_pops = 10000000 } }
+			add_casus_belli = { target = THIS type = add_to_sphere months = 12 }
+		}
+	}
+}
+
+### UNCIV FLAVOR ###
+# SIA -- An Elephant for America?
+country_event = {
+	id = 13350
+	title = "EVTNAME13350"
+	desc = "EVTDESC13350"
+	picture = "elephant"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA13350"
+		relation = {
+			who = FROM
+			value = 30
+		}
+	}
+}
+
+#Torching of The Summer Palace
+country_event = {
+	id = 13355
+	title = "EVTNAME13355"
+	desc = "EVTDESC13355"
+	news = yes
+	news_desc_long = "EVTDESC13355_NEWS_LONG"
+	news_desc_medium = "EVTDESC13355_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC13355_NEWS_SHORT"
+	major = yes
+	picture = "cityfire"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA13355"
+		prestige = -25
+		war_exhaustion = 5
+		1612 = { clr_province_flag = summer_palace }
+	}
+}
+
+country_event = {
+	title = "westernize_nation_title"
+	desc = "westernize_nation_desc"
+	news = yes
+	news_desc_long = "westernize_nation_desc_NEWS_LONG"
+	news_desc_medium = "westernize_nation_desc_NEWS_MEDIUM"
+	news_desc_short = "westernize_nation_desc_NEWS_SHORT"
+	picture = "Prosper"
+
+	id = 90910
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			tag = QNG
+			tag = CHI
+			tag = TPG
+			AND = {
+				NOT = { has_global_flag = the_dragon_wakes }
+				OR = {
+					tag = MCK
+					tag = XBI
+					tag = XIN
+					tag = SZC
+					tag = YNN
+					tag = GXI
+					tag = GNG
+					tag = FJN
+					tag = TAI
+					tag = MUG
+					tag = BHA
+					tag = HND
+					tag = IND
+					tag = DRA
+				}
+			}
+		}
+	}
+
+	option = {				
+		name = "EVTOPTA90910"
+		prestige = 5
+		tech_school = traditional_academic
+		clr_country_flag = lacking_writing_system
+		random_owned = { limit = { owner = { ai = yes } } owner = { add_country_modifier = { name = law_changed_by_force duration = 3 } } }
+		random_owned = { 
+			limit = { owner = { has_country_flag = activate_experimental_railroad } NOT = { experimental_railroad = 1 } }
+			owner = { activate_technology = experimental_railroad  clr_country_flag = activate_experimental_railroad }
+		}
+		remove_country_modifier = assegai
+		remove_country_modifier = educational_reform
+		remove_country_modifier = military_reform
+		remove_country_modifier = western_influences
+		remove_country_modifier = uncivilized_isolationism
+		remove_country_modifier = trade_restrictions
+		remove_country_modifier = sayings_of_the_dutch
+		remove_country_modifier = rangaku
+		remove_country_modifier = sakoku
+		remove_country_modifier = western_presence
+		remove_country_modifier = isolationist_foreign_naval_officers
+		remove_country_modifier = isolationist_foreign_naval_schools
+		remove_country_modifier = isolationist_foreign_officers
+		remove_country_modifier = isolationist_foreign_training
+		any_owned = {
+			remove_province_modifier = western_presence
+			remove_province_modifier = foreign_smugglers
+			remove_province_modifier = foreign_trading_post
+			remove_province_modifier = local_opium_habit
+			remove_province_modifier = european_military_mission
+			remove_province_modifier = legation_quarter
+			remove_province_modifier = kettler_denkmal
+			remove_province_modifier = extraterritoriality_granted
+			remove_province_modifier = boxer_presence
+			remove_province_modifier = boxer_agitation
+		}
+	}
+}
+
+#Reaction to factories being nationalized
+country_event = {
+	title = "EVTNAME90950"
+	desc = "EVTDESC90950"
+	picture = "Prosper"
+
+	id = 90950
+
+	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
+
+	option = {				
+		name = "EVTOPTA90950"
+		random_country = { limit = { tag = FROM is_greater_power = yes } add_casus_belli = { target = THIS type = humiliate months = 12 } }
+		random_country = { limit = { tag = FROM is_greater_power = no } add_casus_belli = { target = THIS type = make_puppet months = 12 } }
+		relation = { who = FROM value = -100 }
+	}
+	
+	option = {				
+		name = "EVTOPTB90950"
+		relation = { who = FROM value = 100 }
+		rich_strata = { militancy = 3 consciousness = 6 }
+	}
+}
+
+#Algerian claims
+country_event = {
+	id = 90953
+	title = "EVTNAME90953"
+	desc = "EVTDESC90953"
+	picture = "arab_revolt"
+	
+	fire_only_once = yes
+	
+	trigger = {
+			1714 = { empty = no }
+			1718 = { empty = no }
+			1714 = { NOT = { is_core = ALD } }
+			1718 = { NOT = { is_core = ALD } }
+			OR = {
+				owns = 1714
+				owns = 1718
+			}
+			NOT = { has_global_flag = algeria_claimed_sahara }
+		}
+
+	option = {
+		name = "EVTOPTA90953"
+		set_global_flag = algeria_claimed_sahara
+#		ALD_1714 = { add_core = ALD }
+		ALD_1718 = { add_core = ALD }
+	}
+}
+
+#Treaty Ports
+province_event = {
+	id = 90954
+	title = "EVTNAME90954"
+	desc = "EVTDESC90954"
+		
+	trigger = {
+		OR = {
+			province_id = 1498
+			province_id = 1496
+			AND = {
+				province_id = 1569
+				NOT = { total_pops = 30000 }
+			}
+			AND = {
+				province_id = 1566
+				NOT = { total_pops = 30000 }
+			}
+			AND = {
+				province_id = 2632
+				NOT = { total_pops = 30000 }
+				NOT = { 1496 = { trade_goods = precious_goods } }
+			}
+			AND = {
+				province_id = 1538
+				NOT = { total_pops = 90000 }
+			}
+		}
+		port = yes
+		NOT = { has_province_modifier = treaty_port }
+		is_core = CHI
+		owner = {
+			civilized = yes
+			NOT = { is_culture_group = east_asian }
+			NOT = { is_culture_group = far_east_asian }
+			}
+		NOT = { any_neighbor_province = { owned_by = THIS } }
+		any_neighbor_province = { owner = { capital_scope = {continent = asia } } }
+	}
+	
+	mean_time_to_happen = { months = 8 }
+
+	option = {
+		name = "EVTOPTA90954"
+		trade_goods = precious_goods
+		any_pop = { limit = { is_culture_group = east_asian } reduce_pop = 1.2 }
+		add_province_modifier = { name = treaty_port duration = -1 }
+	}
+}
+
+#End of Treaty Ports
+province_event = {
+	id = 90955
+	title = "EVTNAME90954"
+	desc = "EVTDESC90955"
+		
+	trigger = {
+		owner = { capital_scope = { continent = asia } }
+		OR = {
+			owner = { is_culture_group = east_asian }
+			owner = { is_culture_group = far_east_asian }
+		}
+		trade_goods = precious_goods
+		OR = {
+			province_id = 1498
+			province_id = 1496
+			province_id = 1566
+			province_id = 1569
+			province_id = 2632
+			province_id = 1538
+		}
+	}
+
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "EVTOPTA90955"
+		add_province_modifier = { name = treaty_port duration = -1 }
+		random_list = {
+			25 = { trade_goods = fish }
+			25 = { trade_goods = silk }
+			25 = { trade_goods = tea }
+			25 = { trade_goods = opium }
+		}
+	}
+}
+
+#Migration to Hong Kong
+province_event = {
+	id = 90956
+	title = "EVTNAME90956"
+	desc = "EVTDESC90956"
+		
+	trigger = {
+		province_id = 1496
+		has_province_modifier = treaty_port
+		1496 = { owner = { civilized = yes capital_scope = { NOT = {continent = asia } } } }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = { months = 1 }
+	
+	immediate = {
+		random_list = {
+			40 = { 1497 = { artisans = { move_pop = 1496 } } }
+			10 = { random_neighbor_province = { limit = { owner = { civilized = no } } soldiers = { limit = { has_pop_culture = yue } move_pop = 1496 } } }
+			10 = { random_neighbor_province = { limit = { owner = { civilized = no } } bureaucrats = { limit = { has_pop_culture = yue } move_pop = 1496 } } }
+			40 = { 1493 = { serfs = { limit = { has_pop_culture = yue } move_pop = 1496 } } }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA90956"
+		
+		any_pop = {
+			limit = {
+				is_primary_culture = no
+				is_accepted_culture = no 
+				is_culture_group = east_asian 
+				OR = {
+					type = artisans
+					type = soldiers
+					type = clergymen
+					type = serfs
+					}
+				}
+			pop_type = labourers	
+			}
+		}
+}
+
+
+#Cleaning Bukhara cores on Kandahar
+country_event = {
+	id = 90957
+	title = "EVTNAME90957"
+	desc = "EVTDESC90957"
+	picture = "central_asian_tribes"
+	
+	trigger = {
+		tag = AFG
+		owns = 1211
+		BUK = { exists = no }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = { months = 12 }
+	
+	option = {
+		name = "EVTOPTA90957"
+		1211 = { remove_core = BUK }
+	}
+}
+
+#Treaty Ports
+province_event = {
+	id = 90958
+	title = "EVTNAME90954"
+	desc = "EVTDESC90954"
+		
+	trigger = {
+		OR = {
+			AND = {
+				is_core = CHI
+				NOT = { province_id = 1498 }
+				NOT = { province_id = 1496 }
+				NOT = { province_id = 1569 }
+				NOT = { province_id = 1566 }
+			}
+			AND = { province_id = 1569 total_pops = 30000 }
+			AND = { province_id = 1566 total_pops = 30000 }
+		}
+		port = yes
+		NOT = { has_province_modifier = treaty_port }
+		owner = {
+			civilized = yes
+			NOT = { is_culture_group = east_asian }
+			NOT = { is_culture_group = far_east_asian }
+		}
+		NOT = { any_neighbor_province = { owned_by = THIS } }
+		any_neighbor_province = { owner = { capital_scope = {continent = asia } } }
+	}
+	
+	mean_time_to_happen = { months = 8 }
+
+	option = {
+		name = "EVTOPTA90954"
+		add_province_modifier = { name = treaty_port duration = -1 }
+	}
+}
+
+#Unciv Military Reforms - Isolationist countries don't get bonuses
+country_event = {
+	id = 90959
+	title = "EVTNAME90959"
+	desc = "EVTDESC90959"
+	picture = "boxers"
+		
+	is_triggered_only = yes
+
+	immediate = {
+		random_owned = {
+			limit = {
+				owner = {
+					OR = {
+						is_culture_group = east_asian
+						has_country_modifier = uncivilized_isolationism
+						has_country_modifier = sakoku
+						vassal_of = QNG
+						substate_of = QNG
+					}
+					civilized = no
+					naval_schools = yes_naval_schools
+					NOT = { has_country_modifier = isolationist_foreign_naval_schools  }
+				}
+			}
+			owner = { add_country_modifier = { name = isolationist_foreign_naval_schools duration = -1 } }
+		}
+		
+		random_owned = {
+			limit = { 
+				owner = {
+					OR = {
+						is_culture_group = east_asian
+						has_country_modifier = uncivilized_isolationism
+						has_country_modifier = sakoku
+						vassal_of = QNG
+						substate_of = QNG
+					}
+					civilized = no
+					foreign_officers = yes_foreign_officers
+					NOT = { has_country_modifier = isolationist_foreign_officers }
+				}
+			}
+			owner = { add_country_modifier = { name = isolationist_foreign_officers duration = -1 } }
+		}
+		
+		random_owned = {
+			limit = { 
+				owner = {
+					OR = {
+						is_culture_group = east_asian
+						has_country_modifier = uncivilized_isolationism
+						has_country_modifier = sakoku
+						vassal_of = QNG
+						substate_of = QNG
+					}
+					civilized = no
+					foreign_naval_officers = yes_foreign_naval_officers
+					NOT = { has_country_modifier = isolationist_foreign_naval_officers }
+				}
+			}
+			owner = { add_country_modifier = { name = isolationist_foreign_naval_officers duration = -1 } }
+		}
+		
+		random_owned = {
+			limit = { 
+				owner = {
+					OR = {
+						is_culture_group = east_asian
+						has_country_modifier = uncivilized_isolationism
+						has_country_modifier = sakoku
+						vassal_of = QNG
+						substate_of = QNG
+					}
+					civilized = no
+					foreign_training = yes_foreign_training
+					NOT = { has_country_modifier = isolationist_foreign_training }
+				}
+			}
+			owner = { add_country_modifier = { name = isolationist_foreign_training duration = -1 } }
+		}
+		
+		random_owned = {
+			limit = { 
+				owner = {
+					has_country_modifier = corrupt_army
+					OR = {
+						foreign_officers = yes_foreign_officers
+						foreign_training = yes_foreign_training						
+					} 
+				}
+			}
+			owner = { remove_country_modifier = corrupt_army }
+		}
+		
+		random_owned = {
+			limit = { 
+				owner = {
+					has_country_modifier = assegai
+					OR = {
+						foreign_officers = yes_foreign_officers
+						foreign_training = yes_foreign_training	
+						foreign_artillery = yes_foreign_artillery
+						foreign_weapons = yes_foreign_weapons
+					} 
+				}
+			}
+			owner = { remove_country_modifier = assegai }
+		}
+		random_owned = {
+			limit = { owner = { civilized = yes } }
+			owner = {
+				remove_country_modifier = educational_reform
+				remove_country_modifier = military_reform
+				remove_country_modifier = western_influences
+				remove_country_modifier = uncivilized_isolationism
+				remove_country_modifier = trade_restrictions
+				remove_country_modifier = sayings_of_the_dutch
+				remove_country_modifier = rangaku
+				remove_country_modifier = sakoku
+				remove_country_modifier = western_presence
+				remove_country_modifier = isolationist_foreign_naval_officers
+				remove_country_modifier = isolationist_foreign_naval_schools
+				remove_country_modifier = isolationist_foreign_officers
+				remove_country_modifier = isolationist_foreign_training
+				any_owned = {
+					remove_province_modifier = western_presence
+					remove_province_modifier = foreign_smugglers
+					remove_province_modifier = foreign_trading_post
+					remove_province_modifier = local_opium_habit
+					remove_province_modifier = european_military_mission
+					remove_province_modifier = legation_quarter
+					remove_province_modifier = kettler_denkmal
+					remove_province_modifier = extraterritoriality_granted
+					remove_province_modifier = boxer_presence
+					remove_province_modifier = boxer_agitation
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA90959"
+	}
+}
+
+#Requesting Foreign Missionaries
+country_event = {
+	id = 90960
+	title = "EVTNAME90960"
+	desc = "EVTDESC90960"
+	picture = "missionaries"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT90960OPTA" #Catholic
+		set_country_flag = change_to_catholic
+		random_country = {
+			limit = {
+				exists = yes
+				OR = {
+					AND = {
+						is_greater_power = yes
+						has_country_flag = catholic_country
+					}
+					tag = FRA
+				}
+			}
+			country_event = 90961
+		}
+		ai_chance = {
+			factor = 25
+			modifier = { factor = 100 any_neighbor_country = { is_greater_power = yes has_country_flag = catholic_country } }
+		}
+	}
+	
+	option = {
+		name = "EVT90960OPTB" #Protestant
+		set_country_flag = change_to_protestant
+		random_country = {
+			limit = {
+				exists = yes
+				OR = {
+					AND = {
+						is_greater_power = yes
+						has_country_flag = protestant_country
+					}
+					tag = ENG
+					tag = ENL
+				}
+			}
+			country_event = 90961
+		}
+		ai_chance = {
+			factor = 25
+			modifier = { factor = 100 any_neighbor_country = { is_greater_power = yes has_country_flag = protestant_country } }
+		}
+	}
+	
+	option = {
+		name = "EVT90960OPTC" #Orthodox
+		set_country_flag = change_to_orthodox
+		random_country = {
+			limit = {
+				exists = yes
+				OR = {
+					AND = {
+						is_greater_power = yes
+						has_country_flag = orthodox_country
+					}
+					tag = RUS
+				}
+			}
+			country_event = 90961
+		}
+		ai_chance = {
+			factor = 25
+			modifier = { factor = 100 any_neighbor_country = { is_greater_power = yes has_country_flag = orthodox_country } }
+		}
+	}
+	
+	option = {
+		name = "EVT90960OPTD" #Sunni
+		set_country_flag = change_to_sunni
+		random_country = {
+			limit = {
+				exists = yes
+				OR = {
+					AND = {
+						is_greater_power = yes
+						has_country_flag = sunni_country
+					}
+					tag = TUR
+				}
+			}
+			country_event = 90961
+		}
+		ai_chance = {
+			factor = 25
+			modifier = { factor = 100 any_neighbor_country = { is_greater_power = yes has_country_flag = sunni_country } }
+		}
+	}
+	
+	option = {
+		name = "EVT90960OPTE" #Nevermind
+		prestige = 3
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+#Requesting Foreign Missionaries - GPs decide what to do
+country_event = {
+	id = 90961
+	title = "EVTNAME90961"
+	desc = "EVTDESC90961"
+	picture = "missionaries"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT90961OPTA" #Send the missionaries
+		relation = { who = FROM value = 25 }
+		diplomatic_influence = { who = FROM value = 25 }
+		FROM = { country_event = 90962 }
+		ai_chance = {
+			factor = 50
+			modifier = { factor = 0 NOT = { relation = { who = FROM value = -190 } } }
+			modifier = { factor = 0.5 NOT = { relation = { who = FROM value = -100 } } }
+			modifier = { factor = 0.75 NOT = { relation = { who = FROM value = -50 } } }
+			modifier = { factor = 0.75 NOT = { relation = { who = FROM value = 0 } } }
+			modifier = { factor = 1.1 relation = { who = FROM value = 50 } }
+			modifier = { factor = 1.15 relation = { who = FROM value = 100 } }
+			modifier = { factor = 1.35 relation = { who = FROM value = 150 } }
+			modifier = { factor = 0.9 FROM = { average_militancy = 4 } }
+			modifier = { factor = 0.75 FROM = { average_militancy = 6 } }
+			modifier = { factor = 0.75 FROM = { average_militancy = 8 } }
+			modifier = { factor = 0.5 FROM = { badboy = 0.5 } }
+		}
+	}
+	
+	option = {
+		name = "EVT90961OPTB" #Send the missionaries
+		relation = { who = FROM value = -25 }
+		FROM = { country_event = 90963 }
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Requesting Foreign Missionaries - GPs Accepted
+country_event = {
+	id = 90962
+	title = "EVTNAME90962"
+	desc = "EVTDESC90962"
+	picture = "missionaries"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT90962OPTA"
+		add_country_modifier = { name = missionary_activity duration = 1825 }
+		clr_country_flag = animist_country
+		clr_country_flag = lacking_writing_system
+		remove_country_modifier = lacks_writing_system
+		random_owned = {
+			limit = { owner = { has_country_flag = change_to_catholic } }
+			owner = {
+				religion = catholic
+				set_country_flag = catholic_country
+				clr_country_flag = change_to_catholic
+				FROM = { relation = { who = THIS value = 150 } diplomatic_influence = { who = THIS value = 100 } }
+			}
+		}
+		random_owned = {
+			limit = { owner = { has_country_flag = change_to_protestant } }
+			owner = {
+				religion = protestant
+				set_country_flag = protestant_country
+				clr_country_flag = change_to_protestant
+				FROM = { relation = { who = THIS value = 150 } diplomatic_influence = { who = THIS value = 100 } }
+			}
+		}
+		random_owned = {
+			limit = { owner = { has_country_flag = change_to_orthodox } }
+			owner = {
+				religion = orthodox
+				set_country_flag = orthodox_country
+				clr_country_flag = change_to_orthodox
+				FROM = { relation = { who = THIS value = 150 } diplomatic_influence = { who = THIS value = 100 } }
+			}
+		}
+		random_owned = {
+			limit = { owner = { has_country_flag = change_to_sunni } }
+			owner = {
+				religion = sunni
+				set_country_flag = sunni_country
+				clr_country_flag = change_to_sunni
+				FROM = { relation = { who = THIS value = 150 } diplomatic_influence = { who = THIS value = 100 } }
+			}
+		}
+	}
+}
+
+#Requesting Foreign Missionaries - GP refused
+country_event = {
+	id = 90963
+	title = "EVTNAME90963"
+	desc = "EVTDESC90963"
+	picture = "missionaries"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT90963OPTA"
+		clr_country_flag = change_to_sunni
+		clr_country_flag = change_to_orthodox
+		clr_country_flag = change_to_protestant
+		clr_country_flag = change_to_catholic
+	}
+}
+
+country_event = {
+	id = 90964
+	title = "westernize_nation_title"
+	desc = "westernize_nation_desc"
+	news = yes
+	news_desc_long = "westernize_nation_desc_NEWS_LONG"
+	news_desc_medium = "westernize_nation_desc_NEWS_MEDIUM"
+	news_desc_short = "westernize_nation_desc_NEWS_SHORT"
+	picture = "western"
+	
+	trigger = {
+		OR = {
+		has_country_modifier = assegai
+		has_country_modifier = educational_reform
+		has_country_modifier = military_reform
+		has_country_modifier = western_influences
+		has_country_modifier = uncivilized_isolationism
+		has_country_modifier = trade_restrictions
+		has_country_modifier = sayings_of_the_dutch
+		has_country_modifier = rangaku
+		has_country_modifier = sakoku
+		has_country_modifier = western_presence
+		has_country_modifier = isolationist_foreign_naval_officers
+		has_country_modifier = isolationist_foreign_naval_schools
+		has_country_modifier = isolationist_foreign_officers
+		has_country_modifier = isolationist_foreign_training
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA90910"
+		prestige = 5
+		tech_school = traditional_academic
+		clr_country_flag = lacking_writing_system
+		random_owned = { limit = { owner = { ai = yes } } owner = { add_country_modifier = { name = law_changed_by_force duration = 3 } } }
+		random_owned = { 
+			limit = { owner = { has_country_flag = activate_experimental_railroad } NOT = { experimental_railroad = 1 } }
+			owner = { activate_technology = experimental_railroad  clr_country_flag = activate_experimental_railroad }
+		}
+		remove_country_modifier = assegai
+		remove_country_modifier = educational_reform
+		remove_country_modifier = military_reform
+		remove_country_modifier = western_influences
+		remove_country_modifier = uncivilized_isolationism
+		remove_country_modifier = trade_restrictions
+		remove_country_modifier = sayings_of_the_dutch
+		remove_country_modifier = rangaku
+		remove_country_modifier = sakoku
+		remove_country_modifier = western_presence
+		remove_country_modifier = isolationist_foreign_naval_officers
+		remove_country_modifier = isolationist_foreign_naval_schools
+		remove_country_modifier = isolationist_foreign_officers
+		remove_country_modifier = isolationist_foreign_training
+		any_owned = {
+			remove_province_modifier = western_presence
+			remove_province_modifier = foreign_smugglers
+			remove_province_modifier = foreign_trading_post
+			remove_province_modifier = local_opium_habit
+			remove_province_modifier = european_military_mission
+			remove_province_modifier = legation_quarter
+			remove_province_modifier = kettler_denkmal
+			remove_province_modifier = extraterritoriality_granted
+			remove_province_modifier = boxer_presence
+			remove_province_modifier = boxer_agitation
+		}
+	}
+}
+

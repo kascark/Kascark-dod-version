@@ -1,0 +1,669 @@
+rail_focus = { #Now called Colonial Policy
+	
+	encourage_agriculture_early = {
+		farm_rgo_eff = 1
+		local_RGO_throughput = 0.1
+		aristocrats = 0.10 
+		pop_militancy_modifier = 0.01
+		icon = 3
+		limit = {
+			NOT = { year = 1870 }
+			is_colonial = yes
+			NOT = { has_province_modifier = treaty_port }
+			NOT = { province_id = 1755 }
+			NOT = { province_id = 1723 }
+			NOT = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+			}
+		}
+	}
+	
+	encourage_agriculture_mid = {
+		farm_rgo_eff = 2
+		local_RGO_throughput = 0.2
+		aristocrats = 0.10 
+		pop_militancy_modifier = 0.01
+		icon = 3
+		limit = {
+			year = 1870
+			NOT = { year = 1900 }
+			is_colonial = yes
+			NOT = { has_province_modifier = treaty_port }
+			NOT = { province_id = 1755 }
+			NOT = { province_id = 1723 }
+			NOT = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+			}
+		}
+	}
+	
+	encourage_agriculture_late = {
+		farm_rgo_eff = 3
+		local_RGO_throughput = 0.3
+		aristocrats = 0.10 
+		pop_militancy_modifier = 0.01
+		icon = 3
+		limit = {
+			year = 1900
+			is_colonial = yes
+			NOT = { has_province_modifier = treaty_port }
+			NOT = { province_id = 1755 }
+			NOT = { province_id = 1723 }
+			NOT = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+			}
+		}
+	}
+	encourage_mining_early = {
+		mine_rgo_eff = 0.5
+		local_RGO_throughput = 0.1
+		aristocrats = 0.10 
+		pop_militancy_modifier = 0.01
+		icon = 4
+		limit = {
+			NOT = { year = 1870 }
+			is_colonial = yes
+			NOT = { has_province_modifier = treaty_port }
+			NOT = { province_id = 1755 }
+			NOT = { province_id = 1723 }
+			OR = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+			}
+		}
+	}
+	
+	encourage_mining_mid = {
+		mine_rgo_eff = 1
+		local_RGO_throughput = 0.2
+		aristocrats = 0.10 
+		pop_militancy_modifier = 0.01
+		icon = 4
+		limit = {
+			year = 1870
+			NOT = { year = 1900 }
+			is_colonial = yes
+			NOT = { has_province_modifier = treaty_port }
+			NOT = { province_id = 1755 }
+			NOT = { province_id = 1723 }
+			OR = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+			}
+		}
+	}
+	
+	encourage_mining_late = {
+		mine_rgo_eff = 1.5
+		local_RGO_throughput = 0.3
+		aristocrats = 0.10 
+		pop_militancy_modifier = 0.01
+		icon = 4
+		limit = {
+			year = 1900
+			is_colonial = yes
+			NOT = { has_province_modifier = treaty_port }
+			NOT = { province_id = 1755 }
+			NOT = { province_id = 1723 }
+			OR = {
+				trade_goods = coal
+				trade_goods = iron
+				trade_goods = oil
+				trade_goods = precious_metal
+				trade_goods = sulphur
+			}
+		}
+	}
+	
+	encourage_business_early = {
+		local_RGO_throughput = 1
+		aristocrats = 0.30
+		immigrant_attract = 1
+		icon = 5
+		limit = {
+			NOT = { year = 1870 }
+			is_colonial = yes
+			OR = {
+				has_province_modifier = treaty_port
+				province_id = 1755
+				province_id = 1723
+			}
+			OR = {
+				NOT = { any_neighbor_province = { owned_by = THIS } }
+				any_neighbor_province = { has_province_modifier = treaty_port }
+			}
+		}
+	}
+	
+	encourage_business_mid = {
+		local_RGO_throughput = 2
+		aristocrats = 0.30 
+		immigrant_attract = 2
+		icon = 5
+		limit = {
+			year = 1870
+			NOT = { year = 1900 }
+			is_colonial = yes
+			OR = {
+				has_province_modifier = treaty_port
+				province_id = 1755
+				province_id = 1723
+			}
+			OR = {
+				NOT = { any_neighbor_province = { owned_by = THIS } }
+				any_neighbor_province = { has_province_modifier = treaty_port }
+			}
+		}
+	}
+	
+	encourage_business_late = {
+		local_RGO_throughput = 3
+		aristocrats = 0.30 
+		immigrant_attract = 3
+		icon = 5
+		limit = {
+			year = 1900
+			is_colonial = yes
+			OR = {
+				has_province_modifier = treaty_port
+				province_id = 1755
+				province_id = 1723
+			}
+			OR = {
+				NOT = { any_neighbor_province = { owned_by = THIS } }
+				any_neighbor_province = { has_province_modifier = treaty_port }
+			}
+		}
+	}
+}
+
+immigration_focus = {
+	immigration = {
+		immigrant_attract = 2
+		immigrant_push = -0.5
+		icon = 8
+	}
+	
+	colonial_immigration = {
+		immigrant_attract = 2.0
+		pop_militancy_modifier = 0.02
+		icon = 2
+		limit = {
+			is_colonial = yes
+		}
+	}
+	
+	emigration_focus = {
+		immigrant_push = 2
+		icon = 9
+		limit = {
+			owner = { ai = no }
+			owner = { civilized = yes }
+			owner = { number_of_states = 2 }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			NOT = { state_scope = { any_owned_province = { NOT = { is_core = THIS } } } }
+		}
+	}
+}
+
+diplomatic_focus = {
+	assimilation_focus = {
+		icon = 38
+		assimilation_rate = 0.4
+		
+		limit = { owner = { ai = no } NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } } NOT = { state_scope = { is_colonial = yes } } }
+	}
+	
+		
+	militancy_appeasement = {
+		pop_militancy_modifier = -0.1
+		local_ruling_party_support = 0.4
+		icon = 6
+		limit = {
+		}
+	}
+	
+	consciousness_appeasement = {
+		pop_consciousness_modifier = -0.5
+		pop_militancy_modifier = -0.1
+		local_ruling_party_support = 0.4
+		icon = 7
+	}
+	
+	progress_focus = {
+		pop_consciousness_modifier = 0.1
+		pop_militancy_modifier = 0.1
+		icon = 23
+		limit = {
+			THIS = { ai = no }
+		}
+	}
+	
+	increase_tension = {
+		icon = 10
+		has_flashpoint = yes
+		own_provinces = no
+		
+		flashpoint_tension = 0.15
+
+		limit = {
+			owner = {
+				has_global_flag = revolution_n_counter_researched
+				is_vassal = no
+			}
+			is_core = THIS
+			THIS = { is_greater_power = no }
+		}
+	}
+}
+promotion_focus = {
+	promote_aristocrats = {
+		aristocrats = 0.20 #20% more likely to become artisans
+		icon = 11
+		outliner_show_as_percent = yes
+		
+		limit = {
+			owner = { ai = yes }
+			owner = { NOT = { government = proletarian_dictatorship } ai = no } 
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+		}
+	}
+
+	promote_artisans = {
+		artisans = 0.20 #20% more likely to become this type
+		icon = 12
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = yes }
+			owner = { ai = no } 
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } } 
+		}
+	}
+
+	promote_bureaucrats = {
+		bureaucrats = 0.20 #20% more likely to become this type
+		icon = 13
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = yes }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			NOT = { has_province_modifier = irish_oppression }
+			NOT = { state_scope = { bureaucrats = 0.040 } }
+			state_scope = { any_owned_province = { any_pop = { OR = { is_accepted_culture = yes is_primary_culture = yes } } } }
+			OR = {
+				owner = { ai = no }
+				owner = { literacy = 0.25 }
+				is_colonial = no
+				is_overseas = no
+			}
+		}
+	}
+
+	promote_capitalists = {
+		capitalists = 0.20 #20% more likely to become this type
+		icon = 14
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = yes }
+			owner = { NOT = { government = proletarian_dictatorship } civilized = yes } 
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			NOT = { has_province_modifier = irish_oppression }
+			NOT = { state_scope = { capitalists = 0.007 } }
+			is_colonial = no
+		}
+	}
+	
+	promote_clergymen = {
+		clergymen = 0.20 #20% more likely to become this type
+		icon = 15
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = yes }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } } 
+			NOT = { has_province_modifier = irish_oppression }
+			NOT = { state_scope = { clergymen = 0.041 } }
+			OR = {
+				is_colonial = no
+				owner = { ai = no }
+			}
+		}
+	}
+
+	promote_clerks = {
+		clerks = 0.20 #20% more likely to become this type
+		icon = 16
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = yes }
+			civilized = yes
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			NOT = { has_province_modifier = irish_oppression }
+			work_available = { worker = clerks }
+			NOT = { state_scope = { is_colonial = yes } }
+			OR = {
+				NOT = { unemployment_by_type = { type = clerks value = 0.5 } }
+				owner = { ai = no }
+			}
+		}
+	}
+
+	promote_craftsmen = {
+		craftsmen = 0.20 #20% more likely to become this type
+		icon = 17
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = yes }
+			civilized = yes
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			work_available = { worker = craftsmen }
+			NOT = { state_scope = { is_colonial = yes } }
+			NOT = { state_scope = { any_owned_province = { unemployment_by_type = { type = craftsmen value = 0.5 } } } }
+		}
+	}
+
+	promote_farmers = {
+		farmers =	 0.20 #20% more likely to become this type
+		icon = 18
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = yes }
+			owner = { ai = no }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			work_available = { worker = farmers }
+		}
+	}
+	
+	promote_labourers = {
+		labourers = 0.20 #20% more likely to become this type
+		icon = 19
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = yes }
+			owner = { ai = no }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } } 
+			work_available = { worker = labourers }
+		}
+	}
+
+	promote_officers = {
+		officers = 0.20 #20% more likely to become this type
+		icon = 20
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = yes }
+			owner = { ai = no } 
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			NOT = { has_province_modifier = irish_oppression }
+			NOT = { state_scope = { officers = 0.002 } }
+			OR = {
+				NOT = { state_scope = { is_colonial = yes } }
+				owner = { has_country_flag = colonial_armies }
+			}
+		}
+	}
+
+	promote_soldiers = {
+		soldiers = 0.20 #20% more likely to become this type
+		icon = 21
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = yes }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			NOT = { state_scope = { soldiers = 0.05 } }
+			OR = {
+				NOT = { state_scope = { is_colonial = yes } }
+				owner = { has_country_flag = colonial_armies }
+			}
+			OR = {
+				NOT = { state_scope = { soldiers = 0.048 } }
+				owner = { ai = no }
+			}
+		}
+	}
+}
+
+promotion_focus_player = {
+	promote_artisans_player = {
+		artisans = 0.30 #20% more likely to become this type
+		local_artisan_output = 0.15
+		local_artisan_input = -0.15
+		
+		icon = 12
+		outliner_show_as_percent = yes
+		limit = { owner = { ai = no } NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } } NOT = { state_scope = { is_colonial = yes } } }
+	}
+
+	promote_bureaucrats_player = {
+		bureaucrats = 0.20 #20% more likely to become this type
+		icon = 13
+		outliner_show_as_percent = yes
+		limit = {
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			NOT = { state_scope = { bureaucrats = 0.040 } }
+			state_scope = { any_owned_province = { any_pop = { OR = { is_accepted_culture = yes is_primary_culture = yes } } } }
+			OR = {
+				owner = { ai = no }
+				owner = { literacy = 0.25 }
+				is_colonial = no
+				is_overseas = no
+			}
+		}
+	}
+
+	promote_capitalists_player = {
+		capitalists = 0.30 #20% more likely to become this type
+		local_factory_input = -0.075
+		local_factory_output = 0.1
+		local_factory_throughput = 0.30
+		icon = 14
+		outliner_show_as_percent = yes
+		limit = { 
+			owner = { NOT = { government = proletarian_dictatorship } civilized = yes } 
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			is_colonial = no
+		}
+	}
+	
+	promote_clergymen_player = {
+		clergymen = 0.20 #20% more likely to become this type
+		icon = 15
+		outliner_show_as_percent = yes
+		
+		limit = {
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } } 
+			NOT = { state_scope = { clergymen = 0.041 } }
+			OR = {
+				is_colonial = no
+				owner = { ai = no }
+			}
+		}
+	}
+
+	promote_clerks_player = {
+		clerks = 0.30 #30% more likely to become this type
+		local_factory_input = -0.05
+		local_factory_output = 0.075
+		local_factory_throughput = 0.30
+		icon = 16
+		outliner_show_as_percent = yes
+		limit = {
+			civilized = yes
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			work_available = { worker = clerks }
+			NOT = { state_scope = { is_colonial = yes } }
+			OR = {
+				NOT = { unemployment_by_type = { type = clerks value = 0.5 } }
+				owner = { ai = no }
+			}
+		}
+	}
+
+	promote_craftsmen_player = {
+		craftsmen = 0.20 #20% more likely to become this type
+		icon = 17
+		outliner_show_as_percent = yes
+		
+		limit = {
+			civilized = yes
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			work_available = { worker = craftsmen }
+			NOT = { state_scope = { is_colonial = yes } }
+			NOT = { state_scope = { any_owned_province = { unemployment_by_type = { type = craftsmen value = 0.5 } } } }
+		}
+	}
+
+	promote_officers_player = {
+		officers = 0.30 #20% more likely to become this type
+		icon = 20
+		outliner_show_as_percent = yes
+		limit = {
+			owner = { ai = no } 
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			NOT = { state_scope = { officers = 0.01 } }
+			OR = {
+				NOT = { state_scope = { is_colonial = yes } }
+				owner = { has_country_flag = colonial_armies }
+			}
+		}
+	}
+
+	promote_soldiers_player = {
+		soldiers = 0.20 #20% more likely to become this type
+		icon = 21
+		outliner_show_as_percent = yes
+		limit = {
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			NOT = { state_scope = { soldiers = 0.05 } }
+			OR = {
+				NOT = { state_scope = { is_colonial = yes } }
+				owner = { has_country_flag = colonial_armies }
+			}
+			OR = {
+				NOT = { state_scope = { soldiers = 0.048 } }
+				owner = { ai = no }
+			}
+		}
+	}
+}
+
+state_enterprises = {
+
+	support_rgo_early = {
+		aristocrats = 0.20 #20% more likely to become artisans
+		local_RGO_throughput = 0.3
+		farm_rgo_eff = 0.3
+		mine_rgo_eff = 0.3
+		icon = 4
+		outliner_show_as_percent = yes
+		limit = {
+			NOT = { year = 1870 }
+			owner = { ai = no }
+			NOT = { state_scope = { is_colonial = yes } }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+		}
+	}
+	
+	support_rgo_mid = {
+		aristocrats = 0.20 #20% more likely to become artisans
+		local_RGO_throughput = 0.6
+		farm_rgo_eff = 0.6
+		mine_rgo_eff = 0.6
+		icon = 4
+		outliner_show_as_percent = yes
+		limit = {
+			year = 1870
+			NOT = { year = 1900 }
+			owner = { ai = no }
+			NOT = { state_scope = { is_colonial = yes } }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+		}
+	}
+	
+	support_rgo_late = {
+		aristocrats = 0.20 #20% more likely to become artisans
+		local_RGO_throughput = 0.8
+		farm_rgo_eff = 0.8
+		mine_rgo_eff = 0.8
+		icon = 4
+		outliner_show_as_percent = yes
+		limit = {
+			year = 1900
+			owner = { ai = no }
+			NOT = { state_scope = { is_colonial = yes } }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+		}
+	}
+	
+	support_industry_early = {
+		local_factory_input = -0.1
+		local_factory_output = 0.15
+		local_factory_throughput = 0.15
+		craftsmen = 0.10
+		
+		icon = 28
+		limit = {
+			NOT = { year = 1870 }
+			owner = { ai = no }
+			NOT = { state_scope = { is_colonial = yes } }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+		}
+	}
+	support_industry_mid = {
+		local_factory_input = -0.1
+		local_factory_output = 0.15
+		local_factory_throughput = 0.30
+		craftsmen = 0.05
+		
+		icon = 28
+		limit = {
+			year = 1870
+			NOT = { year = 1900 }
+			owner = { ai = no }
+			NOT = { state_scope = { is_colonial = yes } }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+		}
+	}
+	support_industry_late = {
+		local_factory_input = -0.1
+		local_factory_output = 0.15
+		local_factory_throughput = 0.60
+		
+		icon = 28
+		limit = {
+			year = 1900
+			owner = { ai = no }
+			NOT = { state_scope = { is_colonial = yes } }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+		}
+	}
+	
+	naval_buildup = {
+		local_ship_build = -0.5
+		
+		icon = 25
+		limit = {
+			owner = { ai = no }
+			NOT = { state_scope = { is_colonial = yes } }
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+			state_scope = { any_owned_province = { port = yes } }
+		}
+	}
+}

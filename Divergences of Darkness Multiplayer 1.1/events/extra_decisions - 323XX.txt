@@ -1,0 +1,367 @@
+	country_event = {
+		id = 32301
+		title = "EVTNAME32301"
+		desc = "EVTDESC32301"
+		picture = "Administration"
+		
+		trigger = {
+				NOT = { government = proletarian_dictatorship }
+				NOT = { government = fascist_dictatorship }
+				NOT = { centralization = totalitarianism }				
+				revolution_n_counterrevolution = 1
+				civilized = yes
+				OR = {
+					AND = {
+						OR = {
+							ruling_party_ideology = communist
+							ruling_party_ideology = socialist
+						}
+						OR = {
+							upper_house_composition = party_appointed
+							political_parties = underground_parties
+						}	
+					}
+					OR = {
+							AND = {
+								OR = { 
+									ruling_party_ideology = communist
+									ruling_party_ideology = socialist
+								}
+								revanchism = 0.25
+								average_militancy = 4.0
+							}
+							AND = {
+								OR = { 
+									ruling_party_ideology = communist
+									ruling_party_ideology = socialist
+								}
+								revanchism = 0.20
+								average_militancy = 6.0
+							}
+					}
+					pop_majority_ideology = communist
+				}
+		}
+
+		mean_time_to_happen = {
+				months = 1
+		}
+
+		option = {
+			name = "EVTOPTA32301"
+			prestige = 15
+			government = proletarian_dictatorship
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = no_meeting
+			political_reform = state_press
+			political_reform = state_controlled
+			political_reform = underground_parties
+			any_pop = {
+				 scaled_militancy = { 
+					factor = -5
+					ideology = communist
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = -2
+					ideology = socialist
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = conservative
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = reactionary
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = liberal
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = anarcho_liberal
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = fascist
+				}
+			}
+		}
+	}	
+	
+	country_event = {
+		id = 32302
+		title = "EVTNAME32302"
+		desc = "EVTDESC32302"
+		picture = "Administration"
+		
+		trigger = {
+				NOT = { government = fascist_dictatorship }
+				NOT = { government = proletarian_dictatorship }
+				NOT = { centralization = totalitarianism }
+				revolution_n_counterrevolution = 1
+				civilized = yes
+				OR = {
+					AND = {
+						ruling_party_ideology = facist
+						OR = {
+							upper_house_composition = party_appointed
+							political_parties = underground_parties
+						}
+					}
+					pop_majority_ideology = facist
+					OR = {
+							AND = {
+								NOT = { ruling_party_ideology = communist }
+								NOT = { ruling_party_ideology = socialist }
+								revanchism = 0.25
+								average_militancy = 4.0
+							}
+							AND = {
+								revanchism = 0.20
+								average_militancy = 6.0
+							}
+					}
+				}
+		}
+
+		mean_time_to_happen = {
+				months = 1
+		}
+
+		option = {
+			name = "EVTOPTA32301" 
+			prestige = 15
+			government = fascist_dictatorship
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = no_meeting
+			political_reform = state_press
+			political_reform = state_controlled
+			political_reform = underground_parties
+			any_pop = {
+				 scaled_militancy = { 
+					factor = -5
+					ideology = fascist
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = socialist
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = conservative
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = reactionary
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = liberal
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = anarcho_liberal
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = communist
+				}
+			}
+		}
+	}	
+	
+	country_event = {
+		id = 32303
+		title = "EVTNAME32303"
+		desc = "EVTDESC32303"
+		picture = "Administration"
+		
+		trigger = {
+				NOT = { government = bourgeois_dictatorship }
+				NOT = { government = democracy }
+				revolution_n_counterrevolution = 1
+				civilized = yes
+				OR = {
+					AND = {
+						ruling_party_ideology = anarcho_liberal
+						NOT = { centralization = totalitarianism }
+						OR = {
+							upper_house_composition = party_appointed
+							political_parties = underground_parties
+						}
+					}
+					pop_majority_ideology = anarcho_liberal
+				}
+		}
+		
+		mean_time_to_happen = {
+				months = 1
+		}
+
+		option = {
+			name = "EVTOPTA32301"
+			prestige = 15
+			government = bourgeois_dictatorship
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = no_meeting
+			political_reform = state_press
+			political_reform = state_controlled
+			political_reform = underground_parties
+			any_pop = {
+				 scaled_militancy = { 
+					factor = -5
+					ideology = anarcho_liberal
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = -2
+					ideology = liberal
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = conservative
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = reactionary
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = communist
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = socialist
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = fascist
+				}
+			}
+		}
+	}		
+	
+	country_event = {
+		id = 32304
+		title = "EVTNAME32304"
+		desc = "EVTDESC32304"
+		picture = "Administration"
+		trigger = { 
+				NOT = { government = prussian_constitutionalism }
+				NOT = { government = absolute_monarchy }
+				NOT = { government = presidential_dictatorship }
+				NOT = { government = feudal_monarchy }
+				NOT = { government = theocracy }
+				revolution_n_counterrevolution = 1
+				civilized = yes
+				OR = {
+					AND = {
+						ruling_party_ideology = reactionary
+						NOT = { centralization = totalitarianism }
+						OR = {
+							upper_house_composition = party_appointed
+							political_parties = underground_parties
+						}
+					}
+					pop_majority_ideology = reactionary
+				}
+		}
+		
+
+		mean_time_to_happen = {
+				months = 1
+		}
+
+		option = {
+			name = "EVTOPTA32301"
+			prestige = 15
+			government = presidential_dictatorship
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = no_meeting
+			political_reform = state_press
+			political_reform = state_controlled
+			political_reform = underground_parties
+			any_pop = {
+				 scaled_militancy = { 
+					factor = -5
+					ideology = reactionary
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = -2
+					ideology = conservative
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = socialist
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = communist
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = liberal
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = anarcho_liberal
+				}
+			}
+			any_pop = {
+				 scaled_militancy = { 
+					factor = 5
+					ideology = fascist
+				}
+			}
+		}
+	}	

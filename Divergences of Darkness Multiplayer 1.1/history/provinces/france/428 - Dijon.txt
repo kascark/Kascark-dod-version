@@ -1,0 +1,24 @@
+owner = BRG
+controller = BRG
+add_core = BRG
+add_core = FRA
+trade_goods = fruit
+life_rating = 34
+state_building = {
+	level = 1
+	building = furniture_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fertilizer_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
+1836.1.2 = {
+	life_rating = 35
+}

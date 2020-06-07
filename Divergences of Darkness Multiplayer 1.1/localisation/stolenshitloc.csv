@@ -1,0 +1,474 @@
+##### Hungary-Austria #####;;;;;;;;;;;;;;x,,,,,,,,
+HUA_absolute_monarchy;Hungary-Austria;;;;;;;;;;;;;x,,,,,,,,
+HUA_prussian_constitutionalism;Hungary-Austria;;;;;;;;;;;;;x,,,,,,,,
+HUA_hms_government;Hungary-Austria;;;;;;;;;;;;;x,,,,,,,,
+HUA_democracy;Federation of Leithania;;;;;;;;;;;;;x,,,,,,,,
+HUA_presidential_dictatorship;Leithania Republic;;;;;;;;;;;;;;x,,,,,,,,
+HUA_bourgeois_dictatorship;Leithania Republic;;;;;;;;;;;;;;x,,,,,,,,
+HUA_proletarian_dictatorship;SR Leithania;;;;;;;;;;;;;x,,,,,,,,
+HUA_fascist_dictatorship;Leithania State;;;;;;;;;;;;;x,,,,,,,,
+HUA_ADJ;Leithanian;;;;;;;;;;;;x;;;
+HUA_absolute_monarchy_ADJ;Hungar-Austrian;;;;;;;;;;;;x;;;
+HUA_prussian_constitutionalism_ADJ;Hungar-Austrian;;;;;;;;;;;;x;;;
+HUA_hms_government_ADJ;Hungar-Austrian;;;;;;;;;;;;x;;;
+scandi_school_title;The high seas fleet;;;;;;;;;;;;;x,,,,,,,,
+scandi_school_desc;we're like vikings and shit.;;;;;;;;;;;;;x,,,,,,,,
+burg_school_title;la grande armée ;;;;;;;;;;;;;x,,,,,,,,
+burg_school_desc;HON HON HON BAGUETTE ET TULIP.;;;;;;;;;;;;;x,,,,,,,,
+grossdeutschland_claims_title;Claiming Greater Germany;;;;;;;;;;;;;x,,,,,,,,
+grossdeutschland_claims_desc;With the Austrian and Lorraine questions both solved in our favour. We are able to embark upon further conquests of ancient German territory such as Silesia or even potentially the whole of Bohemia. Choose wisely!;;;;;;;;;;;;;x,,,,,,,,
+claim_bohemia_title;Claim Bohemia;;;;;;;;;;;;;x,,,,,,,,
+claim_bohemia_desc;Bohemia has been effectively kicked out of Germany and has deliberately changed its intent to rather form a union with Slovakia. We cannot allow this! Bohemia must be annexed and integrated into our state to stop such blatant aggression against the Slovakian People.;;;;;;;;;;;;;x,,,,,,,,
+new_capital_HUA_title;The New Capital;;;;;;;;;;;;;x,,,,,,,,
+new_capital_HUA_desc;To prevent future tensions between both the Hungarian and Danubian peoples, we must build a new capital in a more centralized location such as the region of Gyor and move the administrations of both Austria and Hungary there.;;;;;;;;;;;;;x,,,,,,,,
+HUN_end_HUA_title;The End of Hungary-Austria;;;;;;;;;;;;;x,,,,,,,,
+HUN_end_HUA_desc;The Union has effectively collapsed and Austria has been given freedom though whatever means. This is the end of Hungary-Austria.;;;;;;;;;;;;;x,,,,,,,,
+AUS_end_HUA_title;The End of Hungary-Austria;;;;;;;;;;;;;x,,,,,,,,
+AUS_end_HUA_desc;The Union has effectively collapsed and Hungary has been given freedom though whatever means. This is the end of Hungary-Austria.;;;;;;;;;;;;;x,,,,,,,,
+HUN15.T;The Death of Gabor I;;;;;;;;;;;;;x,,,,,,,,
+HUN15.D;The King of Hungary and once Duke of Nitra has died. He was most well known for his assistance in the liberation of Hungary from the Ottoman Empire which many commentators had originally considered a impossibility due to the relative stability of the Ottoman Empire until 1789. As a direct result of this, he was crowned the King of Hungary much to the annoyance of Bohemia who have continued to refuse to relinquish the Crown of San Stefen and left all attempts to recover it in failure. Gabor I was not a ambitious man and never had any children or close relatives to speak of, the Duchy of Nitria after all was not a prestigious title. This has caused succession issues that will have to be solved with a Regency Council.;;;;;;;;;;;;x,,,,,,,,,,,,
+265415.A;This was a bad time to have the King die.;;;;;;;;;;;;;x,,,,,,,,
+HUN16.T;The Death of Gabor I;;;;;;;;;;;;;x,,,,,,,,
+HUN16.D;The King of Hungary and once Duke of Nitra has died. He was most well known for his assistance in the liberation of Hungary from the Ottoman Empire which many commentators had originally considered a impossibility due to the relative stability of the Ottoman Empire until 1789. As a direct result of this, he was crowned the King of Hungary much to the annoyance of Bohemia who is still annoyed with the fact that they effectively lost one of their vassals in the process of Hungary being created. Gabor I was not a ambitious man and never had any children or close relatives to speak of, the Duchy of Nitria after all was not a prestigious title. This has caused succession issues that will have to be solved with a Regency Council.;;;;;;;;;;;;x,,,,,,,,,,,,
+265416.A;This was a bad time to have the King die.;;;;;;;;;;;;;x,,,,,,,,
+HUN17.T;Springtime in Hungary;;;;;;;;;;;;;x,,,,,,,,
+HUN17.D;The Hungarian regency council has been unable to select a replacement king after the death of Gabor I and have practically resorted to bickering between each other for little or no reason. The liberal revolutions that have spread throughout Europe have taken a interest in this predicament and have promptly declared the Kingdom of Hungary effectively dead as they have committed to a coup d'etat that has taken out both the regency council and the entire "reactionary" government with it.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+265417.A;For the revolution!;;;;;;;;;;;;;x,,,,,,,,
+HUN18.T;A Alternative Option;;;;;;;;;;;;;x,,,,,,,,
+HUN18.D;Rather then search for a hard-to-find survivor of a long-dead Hungarian dynasty or risk further falling into Bohemian influence by crowning a member of the Jagellion Dynasty, we could crown the Duke of Austria as the King of Hungary and create a union between us and them. Its a controversial option and has a lot of opposition but the potential of effectively taking over German territory via a personal union is extremely tempting. Of course, we could just crown a member of the Jagellions or continue searching for a Hungarian heir but this is a option that would guarantee a quick heir rather then being forced to wait for the regency council to come up with a valid Hungarian heir or fall into the Bohemian Sphere.;;;;;;;;;;;;;x,,,,,,,,
+265418.A;Send a letter to the Duke of Austria;;;;;;;;;;;;;x,,,,,,,,
+265418.B;Swallow our pride and crown a Jagellion.;;;;;;;;;;;;;x,,,,,,,,
+265418.C;We will find a Hungarian heir. One day.;;;;;;;;;;;;;x,,,,,,,,
+HUN19.T;The Hungarian Offer;;;;;;;;;;;;;x,,,,,,,,
+HUN19.D;A envoy from the Kingdom of Hungary has unexpectedly offered the crown of Hungary to the Duke of Austria. This would effectively mean that as he is both the ruler of Hungary and Austria, we would form a union between both countries. The Hapsburg Dynasty has been looking for a greater title then that of the elective monarchy of the Commonwealth or the Duchy of Austria and the chance has finally arrived. A chance for the Dynasty to finally advance beyond its mediocre station as the Duke of Austria and into greatness!;;;;;;;;;;;;;x,,,,,,,,
+265419.A;Agree and form Hungary-Austria WILL RESULT IN ANNEXATION;;;;;;;;;;;;;x,,,,,,,,
+265419.B;Agree, move to Budapest and Form Hungary-Austria;;;;;;;;;;;;;x,,,,,,,,
+265419.C;Disagree, We are Germans. Not Hungarians. ;;;;;;;;;;;;;x,,,,,,,,
+HUN20.T;They refused;;;;;;;;;;;;;x,,,,,,,,
+HUN20.D;The Austrian Duke has refused the crown of Hungary on the basis that he: "Does not want a dirty Hungarian crown from a gutter". We will have to continue our mission to find a Hungarian Heir for Hungary, rather then a foreign heir.;;;;;;;;;;;;;x,,,,,,,,
+265420.A;Such a shame;;;;;;;;;;;;;x,,,,,,,,
+HUN21.T;The Creation of Hungary-Austria;;;;;;;;;;;;;x,,,,,,,,
+HUN21.D;The succession crisis that has plagued Hungary since the death of Gabor I has finally come to a end in a way that nobody could have ever hoped to expect beforehand: The Duke of Austria has been crowned in $CAPITAL$ as both the King of Hungary and the Duke of Austria, creating a union between both Hungary and Austria and effectively merging the two nations into one.;;;;;;;;;;;;;x,,,,,,,,
+265421.A;A proud moment for Hungary and the Hapsburg Dynasty;;;;;;;;;;;;;x,,,,,,,,
+HUN22.T;News from Hungary;;;;;;;;;;;;;x,,,,,,,,
+HUN22.D;Hungary has been consulting with the Duke of Austria with the intent to form a "Union" between both nations. As Austria is a member state of the Holy Roman Empire and the Hungarians still own the Duchy of Nitria, it is our duty to respond in a manner which suits the prestige of our title as the Emperor and prime imperial state of the Holy Roman Empire..;;;;;;;;;;;;;x,,,,,,,,
+265422.A;Allow them. This could weaken the Revolutionaries in the South.;;;;;;;;;;;;;x,,,,,,,,
+265422.B;The Duke of Austria must use the title: "King in Hungary".;;;;;;;;;;;;;x,,,,,,,,
+265422.C;Hungary must relinquish the Duchy of Nitria.;;;;;;;;;;;;;x,,,,,,,,
+265422.D;Denied. Force them to relinquish Nitria if they ignore us..;;;;;;;;;;;;;x,,,,,,,,
+HUN23.T;Interjection from Bohemia;;;;;;;;;;;;;x,,,,,,,,
+HUN23.D;Bohemia has sent us a envoy stating that we must use the title: "King in Hungary" and kneel before the Holy Roman Emperor at his palace in Prague. This would be extremely humiliating internationally and it is likely that we may even be thrown out of the world stage if we did so.;;;;;;;;;;;;;x,,,,,,,,
+265423.A;Kneel and take the title of "King in Hungary";;;;;;;;;;;;;x,,,,,,,,
+265423.B;Go to hell!;;;;;;;;;;;;;x,,,,,,,,
+265423.C;This is too hard. Find someone else.;;;;;;;;;;;;;x,,,,,,,,
+HUN24.D;Bohemia has sent us a envoy stating that we must give up the Duchy of Nitria if we wish to continue down this path. This was to be expected as Bohemia has been wanting that title returned to them ever since the Hungarian Revolution ended in the Duke of Nitria (who was a vassal of Bohemia) being crowned as the King of Hungary.;;;;;;;;;;;;;x,,,,,,,,
+265424.A;Return Nitria to them.;;;;;;;;;;;;;x,,,,,,,,
+265424.B;Burn in hell!;;;;;;;;;;;;;x,,,,,,,,
+265424.C;This is too hard. Find someone else.;;;;;;;;;;;;;x,,,,,,,,
+HUN25.D;Bohemia has sent us a envoy threatening us to cease in our attempt to crown the Duke of Austria as the King of Hungary or be immediately invaded and forced to relinquish the Duchy of Nitria.;;;;;;;;;;;;;x,,,,,,,,
+265426.A;The Emperor of a dying Empire tries to stop the future. Bah!;;;;;;;;;;;;;x,,,,,,,,
+265426.B;This is too hard. Find someone else.;;;;;;;;;;;;;x,,,,,,,,
+HUN26.T;Hungary Refuses;;;;;;;;;;;;;x,,,,,,,,
+HUN26.D;The Hungarian Envoy has returned with inflammation regarding a barrage of insults pointed directly at the Emperor of the Holy Roman Empire. They have refused our ultimatum.;;;;;;;;;;;;;x,,,,,,,,
+2654027.A;Fools! Declare War;;;;;;;;;;;;;x,,,,,,,,
+HUN27.T;The Issue of Hungary-Austria;;;;;;;;;;;;;x,,,,,,,,
+HUN27.D;Either though revolution or congress we have formed the Danubian Confederation. However we have been unable to fully unite all Danubian territories under our banner due to the existence of the Kingdom of Hungary-Austria, a blight on Europe. Many within Austria agree with the sentiment that Hungary-Austria was a mistake and are ready to take up arms against their government with our direct support. However, doing so risks retaliation by Hungary-Austria and since it is likely that other states in Europe are already preparing to go to war with us: adding Hungary-Austria to this mess could be very dangerous!;;;;;;;;;;;;;x,,,,,,,,
+265428.A;Tell them that it is too risky.;;;;;;;;;;;;;x,,,,,,,,
+265428.B;Tell them that it is time to unite with their German brothers!;;;;;;;;;;;;;x,,,,,,,,
+HUN28.T;The Austrian Revolution;;;;;;;;;;;;;x,,,,,,,,
+HUN28.D;Vienna has fallen to a large group of Danubian nationalists intending to unify Austria with the newly formed Danubian Confederation. Unfortunately, before a counter-attack was possible many other cities and towns also fell which lead to our immediate withdrawal from Austria Proper. These events are likely the result of direct support by the Danubian Confederation to destroy our nation for the sake of German nationalism. If Hungary-Austria does not act decisively and declare war on these rogue Austrians, it is likely that the Union of Hungary-Austria will collapse.;;;;;;;;;;;;;x,,,,,,,,
+265429.A;Declare War. NOW.;;;;;;;;;;;;;x,,,,,,,,
+265429.B;Give Up.;;;;;;;;;;;;;x,,,,,,,,
+HUN29.T;The Hungarian Coup;;;;;;;;;;;;;x,,,,,,,,
+HUN29.D;The Hungarian Regency Council had been created to choose a new king for the Kingdom of Hungary and it is clear that they had attempted to impose a Jagellion onto us. However, the fact that the Regency Council had attempted to crown a Jagellion was not lost on the military and there would not even be an announcement before the military marched right into the palace and wrested control of the government from the council. The Hungarian military does not tolerate fools who attempt to pull Hungary further into the sphere of Bohemia!;;;;;;;;;;;;;x,,,,,,,,
+265430.A;The Junta will protect us from the Bohemian Beast!;;;;;;;;;;;;;x,,,,,,,,
+HUN30.T;Danubian Confederation Successful;;;;;;;;;;;;;x,,,,,,,,
+HUN30.D;As we have been unable to recover Austria from the Danubian Confederation, it is practically inevitable that the collapse of this union will occur. Already there are many individuals questioning the continuation of this union in $CAPITAL$ and the government has already stated that it will be voting on the future of the union in the coming days. It is likely that they will vote Hungary-Austria out of existence since there is nobody left from Austria to continue support of this union.;;;;;;;;;;;;;x,,,,,,,,
+265431.A;Terrible!;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME31511;Limited Autonomy for $COUNTRY$;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC31511;We have been granted limited self-government by $FROMCOUNTRY$, in the interest of gaining our acquiescence to their formation of a Greater Germany. There are those within $COUNTRY$ who object, saying that being a German vassal is no better than what we enjoyed previously. But it is something.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME31515;The Greater Germany Question;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC31515;Austrians have always walked a path slightly apart from those of their fellow Germans, and the notion of greater unification has never caught on in Austria as it has in the north. Lately there are those who question that path, citing the ascension of a great power who stands ready to lead us into a Greater Germany. Considering that non-German cultures within Austria would never accept dominance by such a union, and that it would alarm European powers to an unprecedented degree, we have to wonder where our path should now lie?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
+EVTNAME31516;$FROMCOUNTRY$ Petitions to Join Germany;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC31516;The $FROMCOUNTRY_ADJ$ government met with the $COUNTRY_ADJ$ government in $CAPITAL$ today, expressing their desire to unite into a 'Greater Germany'. They do so with the full intent of incorporating not only their German-speaking territories, but also any lands they own belonging to other cultures. While such a Greater Germany would undoubtedly be a power unheard-of in the world, there are those who express caution: the world's great powers would almost certainly object to such a union, not to mention the fact that the non-Germany cultures would likely rebel against our dominance.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
+EVTNAME31518;$FROMCOUNTRY$ Refuses German Unity!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC31518;There has been much talk in $CAPITAL$ in recent days of possible unification with $FROMCOUNTRY$ into a 'Greater Germany'. This talk was finally shot down by the $FROMCOUNTRY_ADJ$ government, which stated that $FROMCOUNTRY$'s path is separate from $COUNTRY$'s. There are those within the $COUNTRY_ADJ$ government, however, who believe this is unacceptable. While it would undoubtedly destroy our relationship with $FROMCOUNTRY$ and upset the powers of Europe, laying a claim to the German-speaking parts of $FROMCOUNTRY$ is a possibility.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
+EVTDESC31519;The $FROMCOUNTRY_ADJ$ government met with the $COUNTRY_ADJ$ government in $CAPITAL$ today, expressing their desire to unite into a 'Greater Germany'. Their only stipulation on the union is that their non-German states be incorporated as self-governing regions, no doubt to minimize the objection of European powers -- though there are those who believe the European powers will be unhappy with such an arrangement even so.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME31521;The Dissolution of $COUNTRY$;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC31521;Austria is no more. With Vienna gone and what remains of the Empire a disarray of governments unwilling to maintain their cohesion without an Austrian government to hold it together, the nation has split apart at the seams. Whole portions of the Empire have either declared their outright independence or their intention to reunite with their homelands.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTDESC31530;Austrians have always walked a path slightly apart from those of their fellow Germans, and the notion of greater unification has never caught on in Austria as it has in the north. Lately there are those who question that path, citing the ascension of a great power who stands ready to lead us into a Greater Germany. Considering such a union could alarm the powers of Europe to a great degree, we have to wonder where our path should now lie?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTDESC31531;The $FROMCOUNTRY_ADJ$ government met with the $COUNTRY_ADJ$ government in $CAPITAL$ today, expressing their desire to unite into a 'Greater Germany'. While such a nation would undoubtedly be a power unheard-of in the world, there are those who express caution: the world's great powers would likely object to such a union. Is Greater Germany worth the possibility of war?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31510OPTA;We will give up nothing to form Germany.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31510OPTB;Give limited autonomy to our non-German states.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31510OPTC;Give independence to our non-German states.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31510OPTD;$COUNTRY$ has no interest in becoming Germany.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31511OPTA;Excellent!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME31512;Independence From $FROMCOUNTRY$!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC31512;We have been granted full independence by $FROMCOUNTRY$.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31515OPTA;We will join Greater Germany, no matter what.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31515OPTB;We shall give our non-German states independence before joining Germany.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31515OPTC;Our path does not lie with Germany.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31516OPTA;Greater Germany, all of it, is our destiny.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31516OPTB;$FROMCOUNTRY$'s non-German states will first have independence.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31516OPTC;Such a union is too risky. We refuse their offer.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC31517;We have been granted independence from $FROMCOUNTRY$!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31518OPTA;Greater Germany is our destiny.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31518OPTB;We will accept the $FROMCOUNTRY_ADJ$ decision.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31519OPTA;We agree to $FROMCOUNTRY_ADJ$'s conditions for joining Germany.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31519OPTB;We refuse their offer.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME31520;Unification with Germany;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC31520;$FROMCOUNTRY$ has accepted our proposal.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31521OPTA;Oh no!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME31522;The Breakup of $FROMCOUNTRY$;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC31522;With the dissolution of Austria, a number of our territories have declared their intent to return to $COUNTRY_ADJ$ rule.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31522OPTA;We welcome their return.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC31523;With the dissolution of Austria, we have finally been released from their rule.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31523OPTA;It's about time!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC31526;We have gained our independence at last.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31530OPTA;We will petition to join Germany.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT31531OPTA;Such a union is too risky.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+claim_serbia_title;Claim Serbia;;;;;;;;;;;;;;x,,,,,,,,
+claim_serbia_desc;The Crown of Tomislav never held the area of Serbia but it was always a major concern in the eyes of the Croatian and Hungarian Kings. We must conquer it before it can become a threat to us.;;;;;;;;;;;;;;x,,,,,,,,
+claim_romania_title;Claim Romania;;;;;;;;;;;;;;x,,,,,,,,
+claim_romania_desc;Transylvania holds notable Romanian Minorities continues to act as a serious concern for Hungarian Government. A proposal was put on the table to simply remove the threat of Romanian Nationalism before it can become a concern to us.;;;;;;;;;;;;;;x,,,,,,,,
+claim_montenegro_title;Claim Montenegro;;;;;;;;;;;;;;x,,,,,,,,
+claim_montenegro_desc;The small state of Montenegro sits between both Croatia and Serbia. As we have claimed both states under hungarian control then (due to serbian and croatian minorities) we should claim this state as well.;;;;;;;;;;;;;;x,,,,,,,,
+##### Chinastuff #####;;;;;;;;;;;;;;x,,,,,,,,
+form_china_taiping_title;Claim the Mandate of Heaven;Le Mandat Céleste;Claim the Mandate of Heaven;;;;;;;;;;;
+form_china_taiping_desc;After centuries of warfare following the invasion of the accursed Manchus, we have managed to bring unity back to China. It is time to claim for good the Mandate of Heaven, and reunify the ancient Chinese nation!;Après les siècles de guerre qui ont suivis les invasions Manchus, nous avons réussis à ramener l'unité à la Chine. Il est temps de reprendre le Mandat Céleste et de réunifier l'antique nation chinoise!;After centuries of warfare following the invasion of the accursed Manchus, we have managed to bring unity back to China. It is time to claim for good the Mandate of Heaven, and reunify the ancient Chinese nation!;;;;;;;;;;;
+form_china_correct_pretender_title;Claim the Mandate of Heaven;Le Mandat Céleste;Claim the Mandate of Heaven;;;;;;;;;;;
+form_china_correct_pretender_desc;After centuries of warfare following the invasion of the accursed Manchus, we have managed to bring unity back to China. It is time to claim for good the Mandate of Heaven, and reunify the ancient Chinese nation!;Après les siècles de guerre qui ont suivis les invasions Manchus, nous avons réussis à ramener l'unité à la Chine. Il est temps de reprendre le Mandat Céleste et de réunifier l'antique nation chinoise!;After centuries of warfare following the invasion of the accursed Manchus, we have managed to bring unity back to China. It is time to claim for good the Mandate of Heaven, and reunify the ancient Chinese nation!;;;;;;;;;;;
+EVTNAME44100;The Female Shortage;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC44100;Due to the low value assigned to the birth of daughters, female infanticide has become wide-spread across much of China. The practice has become so common, in fact, it has led to a shortage of women.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTOPTA44100;The population should recover in time.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the_female_shortage;The Female Shortage;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+the_inevitable_war_CHI;The Inevitable War;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+the_inevitable_war_CHI_desc;The Zhou Empire promised that there would be a war in 1856. Then we shall do whatever we can to prepare for such a war...;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+taiping_assimilation;Taiping Conversion;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+soldiers_dont_book;Conquest Focus;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+soldiers_dont_book_desc;With our focus on the great conquest of the steppe. We are unable to supply our researchers in any reasonable way.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTNAME44101;The Zhou Dynasty;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTDESC44101;The Zhou Dynasty was a result of a compromise between a Millenarian Figure known as Li Xiuquing and the various warlords and ancient dynasties scattered around the south of China. Li Xiuquing had failed in his ultimate ambition to create a Heavenly Kingdom of Great Peace but had at least completely dislodged the Southern Ming dynasty from the region, the failure only coming as the remaining warlords and dynasties formed a coalition to stop the Taiping Rebellion from completely taking over the south of China. As the individuals following the Taiping religion were ultimately limited and the chances of his survival was too small, Li Xiuquing was forced to the table and forced to appoint and recognize a new dynasty in the region. The name of this dynasty would come from the strongest warlord in the region whom claimed to be of decent from a rebellious general from the previous century, Wu Sangui. This claim would ultimately be flimsy at best but he was only a means to a end for Li Xiuquing and thus the Zhou Dynasty was born.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVT44101OPTA;1746 was a interesting year. 1856 will be more interesting.;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44187;The Taiping Anniversary;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTDESC44187;A hundred and ten years ago upon this day, the Taiping Rebellion had started. This rebellion had completely failed to created a Heavenly Kingdom of Great Peace as it lacked any considerable leadership but had at least toppled the warlords in the region and forced the Southern Ming to acknowledge that they had no claim over it any more. The empire that had been created from the many compromises and deals made with the Confucian majority would be known as the Zhou Dynasty, a dynasty that was forced to acknowledge Confucian teachings but at the same time teachings of the Taiping religion. This anniversary is remarkable because the most important promise made to the Taiping leadership would be that we must embark upon a final conquest of China before this date or run the risk of another rebellion. We have grown strong in the many years since the rebellion and it seems that this would be the perfect time to launch a final conquest of china.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTOPTA44187;It seems we have little choice but to: §R DECLARE WAR ON EVERYONE §W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTNAME44188;The Final Conquest of China;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTDESC44188;The mad Zhou Dynasty has just mobilized its citizenry and is now mindlessly charging towards our borders with the intent to unify China in its entirety regardless of the cost. We need to respond by mobilizing our citizenry as well and preparing for what looks to be the final war in China before total unification.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTOPTA44188;This looks to be our last stand;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTNAME44189;The Hundred Year Promise;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTDESC44189;One hundred years ago to this day, the various warlords that were controlling the south of China had agreed on a pact with the madman Li Xiuquing to allow for some sense of stability between the Christian population and the Confucian population. However, one of the promises made would be that the Zhou Empire would embark on a great conquest of the rest of China before one hundred and ten years are up. It appears that the chances that the Zhou Empire will invade the rest of China are now total regardless of whomever is currently in control of the empire. Everyone, even the Zhou Empire itself must prepare before Eighteen-Fifty-Six arrives.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTOPTA44189;The clock is running out.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+EVTNAME44102;Taiping Assimilation in $STATENAME$;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44102;The rate of cultural and religious conversion has reached a fever pitch in $STATENAME$. It is inevitable that they will soon follow the way of our lord and saviour.;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44103;Taiping Zealots in $STATENAME$;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44103;We have encountered Taiping Zealots in $STATENAME$. We have promptly removed them from our territories.;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44183;The Chinese Conquest of the Steppe;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC44183;After over a hundred years of diplomatic isolationism from international politics. The Taiping Empire has decided that it would be best if it were to begin a conquest of the Steppe which has remained in a state of broken feuding nations ever since the fall of the Dzungar Khanate. As such, it is now poised to conquer the lands that China has not had since the glory days of the Han and Laio Dynasty.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTNAME44184;The Chinese Conquest of the Steppe;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC44184;The Qing Empire has saved China from the Madness of the Taiping Empire. Now, the newly strengthened Qing Empire has decided that it would be best if it were to begin a conquest of the Steppe which has remained in a state of broken feuding nations ever since the fall of the Dzungar Khanate. As such, it is now poised to conquer the lands that China has not had since the glory days of the Han and Laio Dynasty.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTNAME44185;The Chinese Conquest of the Steppe;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC44185;The Chinese Nation has been formed after centuries of pointless feuding and arrogant dynasties that think that they have a claim to such a state. This new china has now decided that it would be best if it were to begin a conquest of the Steppe which has remained in a state of broken feuding nations ever since the fall of the Dzungar Khanate. As such, it is now poised to conquer the lands that China has not had since the glory days of the Han and Laio Dynasty.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTOPTA44183;China shall rule the steppe!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME44186;The Conclusion of the Steppe Conquest;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC44186;We have completed that which has not been done since the glory days of the Han and Laio Dynasties. The Steppes have been conquered! Who knows what will happen next in the history of China but there shall be no further issues from the likes of any Khanate in the Steppes.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTA44186;China is whole again.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+conquest_of_inner_mongolia_title;Conquest of Inner Mongolia;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+conquest_of_inner_mongolia_desc;Inner Mongolia is a land with countless Chinese inhabitance in it. We must reconquer it from the various steppe kingdoms that have suppressed their Chinese populations for generations.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+conquest_of_tamir_title;Conquest of the Tamir Basin;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+conquest_of_tamir_desc;The Tamir Basin is filled with Islamic Uyghurs and non-Chinese people. However it is a very powerful strategic point and will be useful for future wars.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+conquest_of_dunzgar_title;Conquest of Dunzgar;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+conquest_of_dunzgar_desc;It is time to end the legacy of a mad khan who effectively destroyed china for generations and finish this great conquest in the process. There is no true need for this land aside for the fact that it is the other half of the Tamir Basin.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+conquest_of_mongolia_title;Glorious Conquest of Mongolia;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+conquest_of_mongolia_desc;As China is now once again the dominate power in the world (by far). We should repay the Mongolians for the mistake that was the Yuan Dynasty by promptly doing a conquest of their lands.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+reconquest_of_tibet_title;Reconquest of Tibet;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+reconquest_of_tibet_desc;During the events of the Warlord Era, Tibet had broken off and declared itself independent of Chinese custodianship. Since this was obviously a mistake on the part of the Tibetans, we must remedy this.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+reconquest_of_mongolia_title;Reconquest of Mongolia;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+reconquest_of_mongolia_desc;During the events of the Warlord Era, Mongolia had declared itself independent with the idea that there was no way that china could ever rebuild itself again. However, we did. Mongolia must die.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##### Blue Turban Rebellion - Includes Ported Localization #####;;;;;;;;;;;;;;x,,,,,,,,
+BTR;Blue Turbans;;;;;;;;;;;;x;;;
+BTR_ADJ;Turban Chinese;;;;;;;;;;;;x;;;
+BTR_absolute_monarchy;Blue Turbans;;;;;;;;;;;;;x
+BTR_prussian_constitutionalism;Blue Turbans;;;;;;;;;;;;;x
+BTR_hms_government;Boxer China;;;;;;;;;;;;;x
+the_xiang_army;The Xiang Army;;;;;;;;;;;;x,,,,
+the_xiang_army_desc;The Xiang Army was a standing army organized by Shen Fanguo from existing regional and village militia forces called tuanlian to contain the Taiping rebellion. The Army was financed through local nobles and gentry, as opposed to the centralized Chinese Empire. \n\nAlthough it was raised specifically to address problems in Hunan, the Army formed the core of the new Chinese military establishment, and as such, forever weakened the feudal influence within the military. This devolution of centralized command is commonly pointed to as a major reason for the eventual downfall of the Chinese Empire and the emergence of regional warlordism in China during the first half of the twentieth century.;;;;;;;;;;;;x,,,,
+the_xiang_army_title;Form the Hunan Armies;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the_xiang_army_desc;Our irregular armies have failed to put down the White Lotus Society. Reform is urgently needed if we are to put down the rebellions throughout our great empire. Shen Fanguo will be ordered to form regional armies in Hunan, financed through local nobles and gentry;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the_ever_victorious_army_title;The Ever Victorious Army;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+the_ever_victorious_army_desc;The Ever Victorious Army consisted of Chinese soldiers trained and led by an Arcadian and European officer corps. Though the Army was only active for a few years, from 1865 to 1869, it was instrumental in putting down the Blue Turban Rebellion. It was the first Chinese army which was trained in European techniques, tactics, and strategy. As such, it became a model for later Chinese armies. \n\n The Ever Victorious Army numbered around 5,000 soldiers at its height. It often defeated rebel forces which were numerically much larger because it was better armed, better commanded, and better trained. It was the first Chinese army to incorporate western style training and tactics, modern weaponry, and most important, the concept of light fast moving infantry units which could move faster than their opponents.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ever_victorious_army;The Ever Victorious Army;;;;;;;;;;;;x
+ever_victorious_army_desc;The Ever Victorious Army consisted of Chinese soldiers trained and led by an Arcadian and European officer corps.  It was the first Chinese army which was trained in European techniques, tactics, and strategy. As such, it became a model for later Chinese armies.;;;;;;;;;;;;x
+EVTNAME44205;The White Lotus Society;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44205;The White Lotus Society has remained a remarkable cult throughout China since its re-emergence during the Taiping Rebellion in the 18th Century. Normally, this cult would be of little concern to $COUNTRY$ but after our successful final conquest of China under the banner of the Zhou Empire: The cult has started to agitate in the central regions of china. They claim that as we are directly influenced by foreign religions and perhaps even other secret societies, then we cannot claim the mandate of heaven and must abdicate our throne. Most in central china are willing to believe this cult due to retaining strong ties to Confucianism and an ardent sense of anti-colonialism and anti-European values. This agitation may eventually become a serious concern....;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44205;Our compromise was needed to prevent further violence;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44206;The White Lotus Society has remained a remarkable cult throughout China since its re-emergence during the Taiping Rebellion in the 18th Century. Normally, this cult would be of little concern to $COUNTRY$ but after our successful final conquest of China under our foreign banner, they have started to agitate in the central regions of china. They claim that as we are foreigners (or even republicans) then we cannot claim the mandate of heaven and must revoke our claim on china and leave immediately. As far as we are concerned, we earned our rule over china through rightful conquest and have no intent to give it up. However, we should also wary of the fact that trying to hold a population as large as China underneath a banner that is not of Chinese origin will likely backfire in time...;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44206;We shall not bow;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44207;The White Lotus Society has remained a remarkable cult throughout China since its re-emergence during the Taiping Rebellion in the 18th Century. Normally, this cult would be of little concern to $COUNTRY$ but after our successful final conquest of China underneath the Qing Empire, they have started to agitate in the central regions of china. They claim that as much as we have ruled over the north of china for least the past two hundred years, we are still Manchu scum and should have never attempted to conquer china in the first place. That our failure to conquer the whole of china until now has only proven that we are unfit to take the mandate of heaven and must revoke our claim on china and leave immediately. The Qing Empire does not bow to any society whom claims that we do not have rightful rule over China. However, we should also be wary of the fact that trying to hold a population as large as china underneath a banner that is not of Chinese origin will likely backfire in time...;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44207;The Qing Empire shall preserve;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44208;The White Lotus Society has remained a remarkable cult throughout China since its re-emergence during the Taiping Rebellion in the 18th Century. Normally, this cult would be of little concern to $COUNTRY$ but after our successful final conquest of China underneath our abnormal government, they have started to agitate in the central regions of china. They claim that as much as we are of Chinese origin, we have completely failed in our attempts to claim the mandate of heaven by retaining a egalitarian government that goes against the very principle of the mandate. We should do whatever we can to fight these black-guard reactionaries and ensure that China is retained underneath a government that represents the people, for the people.;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44208;Our values will hold true;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44209;The White Lotus Society has remained a remarkable cult throughout China since its re-emergence during the Taiping Rebellion in the 18th Century. A envoy from the society has arrived in $CAPITAL$ today bringing news that they completely support our regime for being a Chinese ruled, absolute monarchy as all governments attempting to maintain the mandate should be.;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44209;The Mandate of Heaven is forever;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44210;White Lotus Cult found in $STATENAME$;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44210;The White Lotus Cult continues to spread its influence throughout central China and it feels as if nobody in $STATENAME$ is even trying to listen to government directives. Attempts to crack down on the White Lotus Society in $STATENAME$ have completely failed and it is likely that this province will revolt when the society finally decides to declare their rebellion.;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44211;Blue Turban Rebellion;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44211;The White Lotus Society has successfully entrenched itself in Central China and after months of preparation has finally decided to end what they consider a false China. In a bold declaration today in Jingzhou, the national leader of the White Lotus Society has declared a state of rebellion against the Chinese government and has raised a banner of blue. Which has said to be the banner of what would have been the Song Dynasty if they were successful in toppling the regime of the Regency of Nanjing. As a result this rebellion is already being given the nickname: "The Blue Turban Rebellion" which is named after the historical Red, and Yellow Turban Rebellions, but is likely to be far more bloody then both of them either were.;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44211;Destroy the Society!;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTB44211;Secure the Mandate!;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44212;Blue Turban Rebellion Crushed.;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44212;We have defeated the Blue Turban Rebellion and therefore utterly crushed the White Lotus Society in our Empire. As a result, it is extremely unlikely that the cult will attempt to stop us in our future efforts of modernization and the Chinese Empire may one day be considered one of the greatest empires that the world has ever seen. Ready and willing to fight back against western colonization!;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44212;Hurrah!;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44213;The Rebellion is Successful!;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44213;The White Lotus Society has been utterly successful in its efforts of purging China of western and foreign influences. The Mandate of Heaven has already been declared once again and the righteous banner of civilization rises once again in the East. As everyone should be aware of, the foreigners know nothing of how civilization truly works and our empire shall reign and remain stable for a thousand years more without their destabilizing western influences.;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44213;I'm sure this won't backfire at all.;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44214;The Stalemate;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44214;We have been utterly unable to push back the efforts of the Blue Turbans and have been driven to a total stalemate in the process of fighting them. However, this truce has given us time to prepare for when they attack once again. The efforts towards modernization will not stop just though the efforts of a single truce!;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44214;We shall defeat them in time!;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44215;The Stalemate;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44215;Our efforts in defeating the corrupted China have been forced into a stalemate. We must regroup and attempt to destroy this corrupted China the moment it is possible to do so once again.;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44215;The corrupted China shall fall!;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44216;Resume the War?;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44216;The White Lotus Society has concluded that this would be the most ideal time to resume our great rebellion against the corrupt China. Does our great leader agree with such a sentiment?;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44216;It is time to end this rebellion!;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTB44216;Wait.;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME22590;$PROVINCENAME$ Old Naval Base;;;;;;;;;;;;;
+EVTDESC22590;A half abandoned leviathan stuck in the coast. That is how locals in $PROVINCENAME$ describe the decrepit facilities of the old naval base that used to be a local asset strategically important for the $COUNTRY_ADJ$ government. In truth, the naval base has been in decline for a long while and the government defaulting is just the rock bottom. Hit with a severe economic recession in $YEAR$, $COUNTRY_ADJ$ politicians in $CAPITAL$ have no money to spend on repairing and maintaining non-essential staff and facilities.;;;;;;;;;;;;;
+EVTNAME22592;Forts Close in $STATENAME$;;;;;;;;;;;;;
+EVTDESC22592;If one in $YEAR$ were to look at the state of the $COUNTRY_ADJ$ line of defences in $PROVINCENAME$, what they would see is a multitude of abandoned bases and unmanned fortifications occupied only by squatters. A fortification is something tricky to maintain - not only it needs regular assessment of the integrity of walls and gates, but also a constant supply of new armaments, supplies and tools for repair. If one of these ingredients are missing, the structures become useless and the military corps are powerless to stop decay from setting in. After several years of hardship, what is seen in $STATENAME$ is this picture, a consequence of the disastrous bankruptcy that is crushing $COUNTRY$.;;;;;;;;;;;;;
+EVTNAME22591;Overgrown Railways in $STATENAME$;;;;;;;;;;;;;
+EVTDESC22591;What once was one of the arteries of $COUNTRY_ADJ$ industry, the railway in $PROVINCENAME$ fell into such disrepair that it's path is barely visible and its tracks are unusable. Economic recession has hit $STATENAME$ harshly for the last years and without money from $CAPITAL$ being invested, most of the railways in $STATENAME$ are in such a state that they will need to be rebuilt to become train-worthy again.;;;;;;;;;;;;;
+##### Chinese Westernisation Decisions - Ported and re-localized to remove OTL references #####;;;;;;;;;;;;;;x,,,,,,,,
+self_strengthening_movement;Self-Strengthening Movement;;;;;;;;;;;;;x,,,,
+hundred_days_reforms;The Hundred Days Reforms;;;;;;;;;;;;x
+hundred_days_reforms_desc;The Hundred Days Reforms are a series of reforms undertaken by the young Tongzhi Emperor and his reform-minded supporters.;;;;;;;;;;;;x
+maritime_customs_service;The Maritime Customs Service;;;;;;;;;;;;x,,,,
+maritime_customs_service_desc;The Chinese Maritime Customs Service is a governmental tax collection agency and information service.;;;;;;;;;;;;x,,,,
+the_new_policies;The New Policies;;;;;;;;;;;;;;;;;;;;;x,,,,,
+the_new_policies_desc;The New Policies (Xinzhèng), also known as the Late Imperial Reforms, were a series of cultural, economic, educational, military, and political reforms that were implemented in the last decade of the dynastic era to keep the imperial dynasty in power after the catastrophe destruction of the Blue Turbans and the utter failure to westernise in the face of incoming external threats.;;;;;;;;;;;;;;;;;;;;x,,,,,
+establish_the_new_army_title;Establish the New Army;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+establish_the_new_army_desc;To compete with foreign powers, our armies must be modernised. A field force equipped with western arms and training will be a necessary first step in modernizing our armies.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+self_strengthening_movement_title;Self-Strengthening Movement;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+self_strengthening_movement_desc;The Self-Strengtening Movement was a period of institutional reforms initiated in China following a series of military defeats and concessions to foreign powers. \n\n The majority of the ruling elite still subscribed to a conservative or even reactionary worldview, but following China's effective collapse and international embarrassment during the Blue Turban Rebellion, several officials now argued that in order to strengthen itself against the West, it was necessary to adopt Western military technology and armaments. This could be achieved by establishing shipyards and arsenals, and by hiring foreign advisers to train Chinese artisans to manufacture such wares in China. As such, the "self-strengtheners" were by and large uninterested in any social reform beyond the scope of economic and military modernization.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+hundred_days_reform_title;Tongzhi Emperor's Imperial Reforms;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+hundred_days_reform_desc;The humiliation that our Celestial Empire has suffered in the last sixty years regardless of our final victory against the Taiping makes it clear that change is critically needed. \n\nSimply purchasing modern weapons, ships and artillery is not enough, changes to the structure of the government itself to adopt more progressive policies will be needed for China to compete with the Western Powers.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+establish_the_fuzhou_aresenal_title;The Fuzhou Arsenal;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+establish_the_fuzhou_aresenal_desc;The Fuzhou Arsenal was one of several shipyards in Imperial China as part of the Self-Strengthening Movement. \n\n The planning for the shipyard, the Fuzhou Naval College and other facilities was intended to ensure that the Chinese Imperial Navy was able to compete with foreign powers. Various European nations were contacted for the explicit purpose of constructing this modern naval arsenal and with the direct support of various on-leave naval officers, it was made possible to build both the arsenal in Fuzhou and various modern naval shipyards throughout China.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+establish_the_kiangnan_aresenal_title;The Kiangnan Arsenal;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+establish_the_kiangnan_aresenal_desc;The Kiangnan Arsenal was the largest of the arsenals established during the Self-Strengthening Movement, and also the one with the largest budget—from $YEAR$, its annual budget was exceptionally large. Understandably, most of the senior technical staff were Westerners, such as the first chief engineer which hailed from Eastern Arcadia. \n\nDuring the Tongzhi era, the Arsenal was the largest weapons factory in East Asia. Among its other achievements were the first domestically produced steam boat (the Huiji) and the first domestically produced steel in China.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+establish_the_maritime_customs_service_title;The Maritime Customs Service;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+establish_the_maritime_customs_service_desc;The Maritime Customs Service was a governmental tax collection agency and information service. \n\nIt was effectively established by foreign consuls in Shanghai in $YEAR$ to collect maritime trade taxes that were going unpaid due to the inability of Chinese officials to collect them during the Blue Turban Rebellion. Its responsibilities soon grew to include domestic customs administration, postal administration, harbour and waterway management, weather reporting, and anti-smuggling operations. ;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+establish_the_peking_field_force_title;Establish the Peking Field Force;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+establish_the_peking_field_force_desc;The Peking Field Force was founded in $YEAR$, after humiliating defeats during both the Blue Turban Rebellion and against European-backed tributary states during the western conquest. After that series of military screw-ups, high ranking imperial officials tried to acquire advanced western weapons and to copy western military organization. The Force was mostly armed with Russian rifles and Bohemian cannon and drilled by Spanish officers;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+establish_china_merchants_group_title;Found the China Merchants Steam Navigation Company;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+establish_china_merchants_group_desc;China Merchants Steam Navigation Company is a transportation company founded as a part of the Self-Strengthening Movement during the late dynastic era. Eighty percent of the start-up capital was provided by native Chinese, making this the first transportation company using modern technology not based on foreign ownership.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+abolish_the_imperial_examinations_title;Abolish the Imperial Examinations;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+abolish_the_imperial_examinations_desc;With the military defeats throughout the 19th century and pressure to develop a national school system, reformers called for abolition of the Imperial Exams. \n\nThe new system proposed would provide equivalents to the old degrees, a bachelor's degree, for instance, would be considered equivalent to the xiu cai. The abolishment of the Imperial Examinations would also mean the end of Confucianism (or Taiping Christianity) as an official state ideology and of the scholar official as a legal group.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+hanyang_arsenal_title;The Hanyang Arsenal;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+hanyang_arsenal_desc;Originally known as the Hubei Arsenal, it was founded in $YEAR$ by a Chinese official, who diverted funds from the Nanyang Fleet in Guangdong to build the arsenal. It built magazine-fed rifles, quick fire guns and cartridges. Hundreds of thousands were spent annually in the arsenal, which constructed Bohemian rifles and used steel from the works around Hanyang. Iron and coal mines surrounded the area. 130,000 Bohemian Rifles were purchased by the Chinese military, along with mountain guns and small caliber versions.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+new_policies_title;The New Policies;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+new_policies_desc;The New Policies (Xinzhèng), also known as the Late Imperial Reforms, were a series of cultural, economic, educational, military, and political reforms that were implemented in the last decade of the dynastic era to keep the imperial dynasty in power after the catastrophe destruction of the Blue Turbans and the utter failure to westernise in the face of incoming external threats.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+##### Fall of Chinese Dynasties #####;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44140;The Young Chinese Revolutionaries;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44140;Revolutionary societies are springing up all over China, and recently we have received word that several of these societies have banded together as a group that is well known across the world as the Young Chinese Revolutionaries. Their stated goal is the revival of Zhonghua, or the concept that China should be a nation ruled by a republic that represents all of its various peoples. These revolutionaries wish to see $COUNTRY$ freed of foreigner influence, and do not seem satisfied to wait and see what reforms the $COUNTRY_ADJ$ monarchy will provide.;;;;;;;;;;;;;;x,,,,,,,,
+EVT44140OPTA;Try to work with them.;;;;;;;;;;;;;;x,,,,,,,,
+EVT44140OPTB;Crush them. This will not be tolerated.;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44141;Revolutionary Uprising in $PROVINCENAME$;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44141;Revolutionaries seeking to bring down the $COUNTRY_ADJ$ monarchy have been stirring up a revolt in $STATENAME$. The incident appears to have begun in $PROVINCENAME$, after a demonstration by local workers turned violent. Though authorities have already moved in, the damage is done. What remains is to determine how we react to this outrageous provocation.;;;;;;;;;;;;;;x,,,,,,,,
+EVT44141OPTA;Crush them!;;;;;;;;;;;;;;x,,,,,,,,
+EVT44141OPTB;We shall end the monarchy!;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44142;The $COUNTRY_ADJ$ Revolution;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44142;The forces of revolution have turned against the $COUNTRY_ADJ$ Emperor. With dissent threatening to spread into chaos, leaders of the army have demanded the Emperor abdicate his throne. Cheering crowds in $CAPITAL$ greeted the news, but few are aware of the forces now lining up to take control of the government. The Young Chinese Revolutionaries have demanded a transformation of $COUNTRY$ into a republic with free elections. Army leaders, however, have threatened to oppose the Young Chinese and demanded the republic be under strict army control.;;;;;;;;;;;;;;x,,,,,,,,
+EVT44142OPTA;The New Army will keep order in China.;;;;;;;;;;;;;;x,,,,,,,,
+EVT44142OPTB;The Nationalist Party of the Young China Movement will lead the republic.;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44143;The Death of the Qing Empire;;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44143;A secret society known as the League of Harmony and Justice has decided to petition the army to force the abdication of the Qing Emperor on the basis that he has failed to prove to the people of the Qing Empire that his crown has any meaning after the loss of all of its chinese territories. The Army agreed and so the Qing Empire ceased to exist by the end of the same week.;;;;;;;;;;;;;;x,,,,,,,,
+EVT44143OPTA;The Military shall ensure that peace is maintained.;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44144;The Fall of Chinese Dynasties;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC44144;China has finally found it in a state where it is no longer ruled by kings and emperor, warlords and khans. For the first time in history it has become a state by the people, for the people. The old empires and their countless claims no longer have any legitmacy in china anymore and any claim that they ever even existed in the first place has been utterly abolished. There is only china, now and forever.;;;;;;;;;;;;;;x,,,,,,,,
+EVTOPTA44144;The future belongs to a united china.;;;;;;;;;;;;;;x,,,,,,,,
+##### The Sundering of China (Warlord Era) #####;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME44167;The $CAPITAL$ Coup;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44167;After Feng Yuxiang broke off from our state, the legitimacy of the current goverment was put into question. Enough so that a clique of military generals have declared that they would declare their alligeances to other states and coup our government with the intent of allowing the other states to take control. The result was complete confusion and chaos as our nation has now broken into whatever warlord states had previously claimed our territory.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44161;Leader of the Kuomintang;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44161;The leaders of the Kuomintang are preparing for their drive on Beijing, and $COUNTRY$ is expected to answer the call. Either we side with Nationalist China now, or we must abandon the Kuomintang cause and seek our own destiny.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44162;$FROMCOUNTRY$ Joins the Kuomintang;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44162;$FROMCOUNTRY$ has answered the call, and will unite their forces with ours.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44163;The War of Reunification;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44163;The $COUNTRY_ADJ$ people are crying out for the nation to once again unify. We must gather our strength and strike out at those who would divide China, leaving it weak for foreigners to prey upon. Already the banners are in the streets, and $COUNTRY$'s generals are saying now is the time to launch an offensive.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44164;War with $FROMCOUNTRY$!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44164;We have received reports that the $FROMCOUNTRY_ADJ$ army is massing on our mutual border, ready to make a massive offensive into $COUNTRY_ADJ$ territory. It seems a war is upon us, whether we like it or not: either they destroy us or we destroy them.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44165;Chinese Reunification;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44165;The call has come from the capital: the era of warlords is over, and all the Chinese peoples must unite under a single flag. This means $COUNTRY$ must either submit to Beijing's rule or face more war against a strong and unified foe. Your generals stand ready to receive your command.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44166;The Island of Formosa;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44166;Now that we own the island of Formosa, the local Min population has begun to organize itself-- presumably towards the end of breaking away from $COUNTRY_ADJ$ control.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME16050214;Retreat to Taiwan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+EVTDESC16050214;With our holdings on the mainland lost, all we have left is our stronghold on the island of Taiwan. The suggestion among what little remains of the Kuomintang government is that we abandon $CAPITAL$ and move the capital to Taipei. This does not guarantee our safety by any means, but it may be the only means of survival we possess.  We shall however never relinquish our rightful claim to the mainland.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+EVTNAME16050215;Victory over the Kuomintang;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+EVTDESC16050215;With their armies deafeated, their provinces occupied and their government retreating to Taiwan it has become clear that the Kuomintang no longer has the will to fight.  We may now claim dominance over China.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+EVTNAME44168;The Collapse of $COUNTRY$;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44168;We have grown too large without any central unifing figure. Already various warlords have declared themselves independent of our rule once again and our country has collapsed into oblivion.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44169;The Great Unifier;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44169;Our warlord state has come across a leader with great potencial in reunifing china. Our troops and officers are already rallying behind him and his rule has become nothing less then absolute.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44170;The Death of the Great Unifier;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44170;Either in the middle of battle or via the means of rebellion against our state, Our Great Leader has been killed. Already there are rumors that the various warlords underneath our rule no longer support us and that they feel as if they should break off from us.;;;;;;;;;;;;xx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44171;The Myth of the Great Unifier;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44171;Some say that we once had a leader that could rule the whole of china one day. This is not a fact.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44172;Our Great Unifier;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44172;Our previous leader had died under unknown means while we had been annexed under another warlord state. We will not be able to use him in the upcoming conflicts.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44173;Our Great Leader's Revolutionary Ideas;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44173;Our Great Leader has some unique ideas about how to reinvent china, however there is heavy opposition from various generals and these reforms may not be allowed to be implemented. His ideas mostly stem from the ideology of communism and the idea of a workers state.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME44174;Our Great Leader's Revolutionary Ideas;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTDESC44174;Our Great Leader has some unique ideas about how to reinvent china. However there is heavy opposition from various generals and these reforms may not be allowed to be implemented. His ideas range from the establishment of a workers state to the beginnings of a new militarist chinese state.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+##### AZB and TCA #####;;;;;;;;;;;;;;x,,,,,,,,
+TCA;Transcaucasia;;;;;;;;;;;;x
+TCA_ADJ;Transcaucasian;;;;;;;;;;;;x
+form_transcaucasia_title;Unite Transcaucasia;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+form_transcaucasia_desc;The nations of the southern Caucasus must unite together, a new power sufficient to withstand the might of Russian colonialism.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+create_transcaucasia_title;Create Transcaucasia;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+create_transcaucasia_desc;The nations of the southern Caucasus must be united together, a vassal that will serve as a loyal and mighty ally to our country.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+claim_north_caucasus_title;Claim the Northern Caucasus;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+claim_north_caucasus_desc;By rights, the northern Caucasus region belongs as part of our country just as do its people.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+813800.T;The Persian Failure;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+813800.D;We have failed in our ambition to unite Persia under our dynasty. This has caused a catastrophic decline in legitimacy for our nation and our various minorities are already declaring that they should create their own nations away from our dominion.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+813800.A;This is a unfortunate state of affairs.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+813801.T;The Glorious Victory over the Ottoman Empire;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+813801.D;We have defeated the Ottoman Empire and reclaimed territory that many would claim is rightfully ours. For now we celebrate but we must remain at guard, it is likely that the Turkish Empire shall reclaim this land as soon as they recover from their chaos.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+813801.A;We shall hold onto this territory until the last man.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##### Czechoslovakia #####;;;;;;;;;;;;;;x,,,,,,,,
+HRE74.T;The Future of Bohemia!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HRE74.D;Bohemia has been completely removed from Germany and the monarchy that has led it down this path has also been removed. As such there is now a opportunity to pursue a new path for Bohemia: One of Slavic Brotherhood rather then that of German Brotherhood.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+410074.A;We will become Slavic. Pro Cechy!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+410074.B;We will restore the old empire. Fur Bohmen!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+form_czechoslovakia_title;Form Czechoslovakia;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+form_czechoslovakia_desc;The failure of Bohemia to retain its German territories has caused it to declare itself ruler of Slovakia. Czechoslovakia shall rise!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+end_of_czechoslovakia_bohemia_title;The End of Czechoslovakia;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+end_of_czechoslovakia_bohemia_desc;The union of Bohemia and Slovakia has been sundered. It is time to bring Czechoslovakia to an end.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+end_of_czechoslovakia_slovakia_title;The End of Czechoslovakia;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+end_of_czechoslovakia_slovakia_desc;The union of Bohemia and Slovakia has been sundered. It is time to bring Czechoslovakia to an end.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+CZH;Czechoslovakia;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+CZH_ADJ;Czechoslovak;;;;;;;;;;;
+HRE75.T;Death of the Elbian Confederation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+HRE75.D;As the Elbian Confederation has been effectively dismantled out of existence. We have no further claim to this title any more.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+410075.A;Time to return to Bohemia;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+##### DUA Integration Issues #####;;;;;;;;;;;;;;x,,,,,,,,
+DUA131.T;Grand Duchy of Northumbia;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+DUA131.D;After our Anglois Education Reforms, the situation in the English territories has completely spiralled out of control! They claim that we are effectively destroying the English language entirely and replacing it with some form of French-English abomination. So, as a direct result various regional governors have already appealed to the government in $CAPITAL$ to create a autonomous regional government called the Grand Duchy of Northumbia which should allow for furthered stability and English cultural autonomy at least in its particular region. Refusing this could have dire consequences and seriously hamper our efforts to integrate England into the new Anglois Culture, but effectively giving up land to what is effectively a bunch of rogue governors is seen as a highly questionable act by all great powers of Europe.;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+DUA132.T;Grand Duchy of Aquitaine;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+DUA132.D;After our Anglois Education Reforms, the situation in the Provencal territories has completely spiralled out of control! They claim that we are effectively destroying the Occitan language entirely and replacing it with some form of English-French abomination. So, as a direct result various regional governors have already appealed to the government in $CAPITAL$ to create a autonomous regional government called the Grand Duchy of Aquitaine which should allow for furthered stability and Occitan cultural autonomy at least in its particular region. Refusing this could have dire consequences and seriously hamper our efforts to integrate Occitania into the new Anglois Culture, but effectively giving up land to what is effectively a bunch of rogue governors is seen as a highly questionable act by all great powers of Europe.;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+DUA133.T;Aquitanian Acendency;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+DUA133.D;We are now considered one of the great powers of this world. As a result we need not consider ourselves Aquitania any longer and rather claim the title of Occitaina;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+DUA134.T;Northumbian Acendency;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+DUA134.D;We are now considered one of the great powers of this world. As a result we need not consider ourselves Northumberland any longer and rather claim the title of England;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+AQT;Aquitania;;;;;;;;;;;;;x
+AQT_ADJ;Aquitanian;;;;;;;;;;;;;x
+AQT_absolute_monarchy;Grand Duchy of Aquitaine;;;;;;;;;;;;x;;;
+AQT_prussian_constitutionalism;Grand Duchy of Aquitaine;;;;;;;;;;;;x;;;
+AQT_hms_government;Grand Duchy of Aquitaine;;;;;;;;;;;;x;;;
+##### Post-Colonial India #####;;;;;;;;;;;;;;x,,,,,,,,
+PAK;Pakistan;;;;;;;;;;;;;;;;;;x;;;;
+PAK_ADJ;Pakistani;;;;;;;;;;;;;;;;;;x;;;;
+PAK_conservative;Jamaat-e-Islami Pakistan;;;;;;;;;;;;;;;;;;x;;;;
+PAK_liberal;Pakistan Tehreek-e-Insaf;;;;;;;;;;;;;;;;;;x;;;;
+PAK_liberal_2;Muttahida Qaumi;;;;;;;;;;;;;;;;;;x;;;;
+PAK_anarcho_liberal;Awami National;;;;;;;;;;;;;;;;;;x;;;;
+PAK_socialist;Pakistan Awami Tehreek;;;;;;;;;;;;;;;;;;x;;;;
+PAK_socialist_2;Kull Pakistan Kissan;;;;;;;;;;;;;;;;;;x;;;;
+PAK_communist;Pakistan People's Party;;;;;;;;;;;;;;;;;;x;;;;
+PAK_fascist;Jamaat Ahle Sunnat;;;;;;;;;;;;;;;;;;x;;;;
+PAK_reactionary;Jamiat Ulema-e-Islam;;;;;;;;;;;;;;;;;;x;;;;
+PRF;Princely Federation;;;;;;;;;;;;x;;;
+PRF_ADJ;Central Indian;;;;;;;;;;;;x;;;
+PRF_absolute_monarchy_ADJ;Princely;;;;;;;;;;;;x;;;
+PRF_prussian_constitutionalism_ADJ;Princely;;;;;;;;;;;;x;;;
+PRF_hms_government_ADJ;Princely;a;;;;;;;;;;;x;;;
+formalize_PRF_federation_title;Formalize the Confederation;;;;;;;;;;;x;;;
+formalize_PRF_federation_desc;With European interests in this region in decline as they move on to conquer the dark continent and our own complete independence from our previous colonial overlords, we should embark on a program to formalize the CIIC and make it a official nation state in Central India.;;;;;;;;;;;x;;;
+join_PRF_federation_title;Join the Confederation;;;;;;;;;;;x;;;
+join_PRF_federation_desc;As we are a member of the CIIC that has been recently granted (either by treaty or by force) independence from our colonial overlords. We should immediately join the Princely Confederation to further protect ourselves from foreign influences.;;;;;;;;;;;x;;;
+central_PRF_federation_title;Centralize the Confederation;;;;;;;;;;;x;;;
+central_PRF_federation_desc;We have finished in the unification of the territories that are considered ours by right and we can now reorganize our states in a way that will ensure future stability of this Confederation.;;;;;;;;;;;x;;;
+claim_PRF_federation_title;The Congress Territory;;;;;;;;;;;x;;;
+claim_PRF_federation_desc;When various Indian princes gathered in Europe to announce the creation of the Princely Confederation, we were ultimately betrayed by Europe as they created false Indian states which deliberately excluded our influence. With the centralization of our confederation complete and our rise to power in India. It is now time to reclaim what is rightfully ours!;;;;;;;;;;;x;;;
+organize_pakistan_title;Organize Pakistan;;;;;;;;;;;;;
+organize_pakistan_desc;We should organize the Pakistani colonies to better reflect both a local structure, as well as set up the possibility for autonomous islamic rule-- dominated by our benevolent colonial administrators, of course.;;;;;;;;;;;;;
+reorganize_pakistan_title;Claim Pakistan;;;;;;;;;;;;;
+reorganize_pakistan_desc;Now that we have taken possession of Pakistan, we should reorganize its structure to make it truly part of our greater colonial administration.;;;;;;;;;;;;;
+organize_travancore_title;Organize Tranvacore;;;;;;;;;;;;;
+organize_travancore_desc;We should organize the Tranvacoreian colonies to better reflect both a local structure, as well as set up the possibility for autonomous rule-- dominated by our benevolent colonial administrators, of course.;;;;;;;;;;;;;
+reorganize_travancore_title;Claim Tranvacore;;;;;;;;;;;;;
+reorganize_travancore_desc;Now that we have taken possession of this Indian colony, we should reorganize its structure to make it truly part of our greater colonial administration.;;;;;;;;;;;;;
+organize_bangladesh_title;Organize Bangladesh;;;;;;;;;;;;;
+organize_bangladesh_desc;We should organize the Bengalese colonies to better reflect both a local structure, as well as set up the possibility for autonomous rule-- dominated by our benevolent colonial administrators, of course.;;;;;;;;;;;;;
+reorganize_bangladesh_title;Claim Bangladesh;;;;;;;;;;;;;
+reorganize_bangladesh_desc;Now that we have taken possession of this Indian colony, we should reorganize its structure to make it truly part of our greater colonial administration.;;;;;;;;;;;;;
+reorganize_rajputana_title;Claim Rajputana;;;;;;;;;;;;;
+reorganize_rajputana_desc;Now that we have taken possession of this Indian colony, we should reorganize its structure to make it truly part of our greater colonial administration.;;;;;;;;;;;;;
+organize_mughal_title;Organize Mughalstan;;;;;;;;;;;;;
+organize_mughal_desc;We should organize the Mughal colonies to better reflect both a local structure, as well as set up the possibility for autonomous rule-- dominated by our benevolent colonial administrators, of course.;;;;;;;;;;;;;
+reorganize_mughal_title;Claim Mughalstan;;;;;;;;;;;;;
+reorganize_mughal_desc;Now that we have taken possession of this Indian colony, we should reorganize its structure to make it truly part of our greater colonial administration.;;;;;;;;;;;;;
+HND24.T;The Creation of the Princely Confederation;;;;;;;;;;;;;
+HND24.D;With the acceptance of semi-autonomous princely states in Central India and the growing trend of European interests in the region. Various willing Indian princes have met in $CAPITAL$ to discuss the creation of a organization that will provide for collaborator princes in central India. The organization that they created would be known as the: "Confederate Institution for Indian Civilization" or what is just known as the "Princely Confederation" for short. This organization presently claims most of Central India as a neutral or "princely" zone but if any European nation were to organize colonies that directly conflict with these claims then they would have to accept such reorganizations. This organization after all is not a nation state, yet.;;;;;;;;;;;;;
+HND24.T;$STATENAME$ Colonial Incorporation;;;;;;;;;;;;;
+HND25.D;With the arrival of the $COUNTRY_ADJ$ colonial governor into $PROVINCENAME$, an effort has begun to incorporate $COUNTRY_ADJ$ $STATENAME$ into the larger Tranvacoreian colony.;;;;;;;;;;;;;
+HND27.D;With the arrival of the $COUNTRY_ADJ$ colonial governor into $PROVINCENAME$, an effort has begun to incorporate $COUNTRY_ADJ$ $STATENAME$ into the larger Raj colony.;;;;;;;;;;;;;
+HND26.D;With the arrival of the $COUNTRY_ADJ$ colonial governor into $PROVINCENAME$, an effort has begun to incorporate $COUNTRY_ADJ$ $STATENAME$ into the larger Mughal colony.;;;;;;;;;;;;;
+HND28.D;With the arrival of the $COUNTRY_ADJ$ colonial governor into $PROVINCENAME$, an effort has begun to incorporate $COUNTRY_ADJ$ $STATENAME$ into the larger Pakistani colony.;;;;;;;;;;;;;
+MCK_absolute_monarchy;The Qing Empire;Manchu;Mandschu;;;;;;;;;;;;;x,,,,,,,,
+MCK_prussian_constitutionalism;The Qing Empire;Manchu;Mandschu;;;;;;;;;;;;;x,,,,,,,,
+MCK_hms_government;The Qing Empire;Manchu;Mandschu;;;;;;;;;;;;;x,,,,,,,,
+MCK_democracy;Manchuria;;;;;;;;;;;;;x,,,,,,,,
+MCK_presidential_dictatorship;Manchu Protectorate;;;;;;;;;;;;;x,,,,,,,,
+MCK_bourgeois_dictatorship;Manchu Protectorate;;;;;;;;;;;;;x,,,,,,,,
+MCK_proletarian_dictatorship;People's Republic of Manchuria;;;;;;;;;;;;;x,,,,,,,,
+MCK_fascist_dictatorship;The Manchu Empire;;;;;;;;;;;;;x,,,,,,,,
+;;;;;;;;;;;;;x,,,,,,,,
+TAI_absolute_monarchy;The Zhou Empire;Zhou;Zhou;;;;;;;;;;;;;x,,,,,,,,
+TAI_prussian_constitutionalism;The Zhou Empire;Zhou;Zhou;;;;;;;;;;;;;x,,,,,,,,
+TAI_hms_government;The Zhou Empire;Zhou;Zhou;;;;;;;;;;;;;x,,,,,,,,
+TAI_democracy;Taiping Republic;Taiping;Taiping;;;;;;;;;;;;;;;;;x,,,,,,,,
+TAI_presidential_dictatorship;Taiping Republic;Taiping;Taiping;;;;;;;;;;;;;x,,,,,,,,
+TAI_bourgeois_dictatorship;Taiping Republic;Taiping;Taiping;;;;;;;;;;;;;x,,,,,,,,
+TAI_proletarian_dictatorship;People's Republic of Taiping;Taiping;Taiping;;;;;;;;;;;;;;;;x,,,,,,,,
+TAI_fascist_dictatorship;Taiping State;;;;;;;;;;;;;x,,,,,,,,
+;;;;;;;;;;;;;x,,,,,,,,
+PRF_absolute_monarchy;Princely Federation;;;;;;;;;;;;;x,,,,,,,,
+PRF_prussian_constitutionalism;Princely Federation;;;;;;;;;;;;;x,,,,,,,,
+PRF_hms_government;Princely Federation;;;;;;;;;;;;;x,,,,,,,,
+PRF_democracy;Central Indian Republic;;;;;;;;;;;;;;;;;x,,,,,,,,
+PRF_presidential_dictatorship;Central Indian Republic;;;;;;;;;;;;;x,,,,,,,,
+PRF_bourgeois_dictatorship;Central Indian Republic;;;;;;;;;;;;;x,,,,,,,,
+PRF_proletarian_dictatorship;Central Indian Commune;;;;;;;;;;;;;;;;x,,,,,,,,
+PRF_fascist_dictatorship;Central Indian Empire;;;;;;;;;;;;;x,,,,,,,,
+;;;;;;;;;;;;;x,,,,,,,,
+CHI_absolute_monarchy;Chinese Empire;;;;;;;;;;;;;x,,,,,,,,
+CHI_prussian_constitutionalism;Chinese Empire;;;;;;;;;;;;;x,,,,,,,,
+CHI_hms_government;Chinese Empire;;;;;;;;;;;;;x,,,,,,,,
+CHI_democracy;Republic of China;;;;;;;;;;;;;;;;;x,,,,,,,,
+CHI_presidential_dictatorship;New Army China;;;;;;;;;;;;;x,,,,,,,,
+CHI_bourgeois_dictatorship;New Army China;;;;;;;;;;;;;x,,,,,,,,
+CHI_proletarian_dictatorship;People's Republic of China;;;;;;;;;;;;;;;;x,,,,,,,,
+CHI_fascist_dictatorship;The Han State;;;;;;;;;;;;;x,,,,,,,,
+;;;;;;;;;;;;;x,,,,,,,,
+KMT_absolute_monarchy;Second Chinese Empire;;;;;;;;;;;;;x,,,,,,,,
+KMT_prussian_constitutionalism;Second Chinese Empire;;;;;;;;;;;;;x,,,,,,,,
+KMT_hms_government;Second Chinese Empire;;;;;;;;;;;;;x,,,,,,,,
+KMT_democracy;Republic of China;;;;;;;;;;;;;;;;;x,,,,,,,,
+KMT_presidential_dictatorship;Nationalist China;;;;;;;;;;;;;x,,,,,,,,
+KMT_bourgeois_dictatorship;Nationalist China;;;;;;;;;;;;;x,,,,,,,,
+KMT_proletarian_dictatorship;Chinese People's Republic;;;;;;;;;;;;;;;;x,,,,,,,,
+KMT_fascist_dictatorship;The Chinese Mandate;;;;;;;;;;;;;x,,,,,,,,
+;;;;;;;;;;;;;x,,,,,,,,
+DUR;Pashtun-Iran;;;;;;;;;;;;x
+DUR_ADJ;Pashtun;;;;;;;;;;;;x
+DUR_feudal_monarchy;Durrani Empire;;;;;;;;;;;;x
+DUR_absolute_monarchy;Durrani Empire;;;;;;;;;;;;x
+DUR_prussian_constitutionalism;Durrani Empire;;;;;;;;;;;;x
+DUR_hms_government;Durrani Empire;;;;;;;;;;;;x
+DUR_feudal_monarchy_ADJ;Durrani;;;;;;;;;;;;x
+DUR_absolute_monarchy_ADJ;Durrani;;;;;;;;;;;;x
+DUR_prussian_constitutionalism_ADJ;Durrani;;;;;;;;;;;;x
+DUR_hms_government_ADJ;Durrani;;;;;;;;;;;;x
+DUR_fascist_dictatorship;Durrani State;;;;;;;;;;;;x
+DUR_fascist_dictatorship_ADJ;Durrani;;;;;;;;;;;;x

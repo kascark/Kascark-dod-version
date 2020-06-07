@@ -1,0 +1,20 @@
+owner = DUA
+controller = DUA
+add_core = DUA
+add_core = PRV
+add_core = OCC
+trade_goods = iron
+life_rating = 35
+railroad = 1
+state_building = {
+	level = 1
+	building = winery
+	upgrade = yes
+}
+1836.1.2 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = DUA
+	life_rating = 35
+}

@@ -1,0 +1,60 @@
+#############################################;;;;;;;;;;;;;;x
+#Additional Modifiers;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+government_in_exile;Government in Exile;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+government_in_exile_desc;Located here is the new Government of a once powerful nation, striving to make great leaps with what little it has left.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+rus_expansion_cooldown;Expansion Cooldown;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+rus_expansion_cooldown_title;Expansion Cooldown;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+rus_expansion_cooldown_desc;We need time to work up the fervour in the populace for wars of expansion.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+player_unciv_mobilization;Player Controlled Uncivilized Nation;;;;;;;;;;;;x,,,,,,,
+asia_nerfonciv;Civilized Asian Nerf;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+asia_nerfonciv_desc;A nerf due to power of Asian accepted-pops.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+asia_nerfearly;Asian Early-game Nerf;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+asia_nerfearly_desc;A nerf due to power of Asian accepted-pops.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+asia_nerfmid;Asian Mid-game Nerf;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+asia_nerfmid_desc;A nerf due to power of Asian accepted-pops.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+asia_nerflate;Asian Late-game Nerf;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+asia_nerflate_desc;A nerf due to power of Asian accepted-pops.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+chinese_economic_compensation;Economic Compensation due to Genocide;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+chinese_economic_compensation_desc;To compensate the global economy for the loss of roughly two thirds of China's population, RGO outpost is temporarily increased.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+rgo_changed;RGO Change Cooldown;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+rgo_changed_title;RGO Change Cooldown;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+rgo_changed_desc;You have recently taken a decision to change a RGO, you must wait a while before doing so again.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+venetian_shipyards;Venetian Shipyards;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+venetian_shipyards_desc;The massive shipwrights of Venetia truly are a crowning jewel of Italia.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+federales_CLM;Federales;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+federales_CLM_desc;The federal nature of our state poses serious problems for maintaining order, with the various police forces underfunded by the local authorities, lacking proper training and squabbling over jurisdictions. The central government has proposed the creation of a Federal Force inspired by European methods, the Federal Gendarmerie which will be able to act over our whole territory as to severely hinder the rebellious elements of our population.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+developing_bioweapons;Bioweapons in Development;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+developing_bioweapons_desc;After this modifier runs down you will have access to a decision while at war to deploy the Solomon Virus.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+experimental_bioweapon;The Solomon Virus;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+experimental_bioweapon_desc;Once considered legend, now revived and modified to be even more infectious & deadly, this weapon can wipe out entire countries once deployed.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+bioweapon_cooldown;Solomon Virus Under Cooldown;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+bioweapon_cooldown_desc;You must wait till the modifier disappears before deploying The Solomon Virus again.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+help_ai;Moderate Boost to AI Economy;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+help_ai_mid;Moderate Boost to AI Economy;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+help_ai_late;Moderate Boost to AI Economy;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+disable_loans;No more loans for anyone.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+help_ai_free_trade;Forces the AI set Tarrifs Low.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+help_ai_protectionism;Forces the AI to set Tariffs High.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+chinese_economic_compensation;Great Leap Forward;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+divided_society1;Societal Divison;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;
+divided_society1_desc;Efforts to only focus efforts on the integration of only a portion of our nation has lead to long-standing divison.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+integrated_society;Ongoing Integration;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;
+integrated_society_desc;Focused efforts of cultural homogenization is proving fruitful.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+fairer_taxation;Taxation Relief;Allégement de la fiscalité;Besteuerung Relief;;Alivio de impuestos;;;;;;;;;x;;;;
+fairer_taxation1;Taxation Relief;Allégement de la fiscalité;Besteuerung Relief;;Alivio de impuestos;;;;;;;;;x;;;;
+fairer_taxation2;Taxation Relief;Allégement de la fiscalité;Besteuerung Relief;;Alivio de impuestos;;;;;;;;;x;;;;
+fairer_taxation3;Taxation Relief;Allégement de la fiscalité;Besteuerung Relief;;Alivio de impuestos;;;;;;;;;x;;;;
+province_selected;Selected Province;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+province_selected_desc;This province is selected for manually triggered decisions such as the change Mining/Farming RGO.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+migration_factor_reduced;No Migration from Province;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+migration_factor_reduced_title;No Migration from Province;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+migration_factor_reduced_desc;Due to the unemployment caused by switching to Lumber RGO, this province will not have any migration for two years untill pops can be reemployed with time.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+timber_employment_fix;Timber Employment Fix;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+timber_employment_fix_title;Timber Employment Fix;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+timber_employment_fix_desc;A temporary market reset for Lumber prices inorder to fix the unemployment bug caused by switching a province to a Lumber RGO.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+tropical_wood_employment_fix;Tropical Wood Employment Fix;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+tropical_wood_employment_fix_title;Tropical Wood Employment Fix;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+tropical_wood_employment_fix_desc;A temporary market reset for Tropical Wood prices inorder to fix the unemployment bug caused by switching a province to a Tropical Wood RGO.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+immunity_from_influenza;Immunity from Influenza;;;;;;;;;;;;;x
+immunity_from_influenza_desc;Prevents Pandemic Influenza from recurring in your country as long as modifier is active.;;;;;;;;;;;;;x

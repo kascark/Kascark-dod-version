@@ -1,0 +1,67 @@
+political_decisions = {
+	chinese_genocide_MCK = {
+		picture = switch_to_fraternity
+		potential = {
+			tag = MCK
+			NOT = {
+				has_global_flag = chinese_genocide
+			}
+		}
+		allow = {
+			NOT = {
+				has_global_flag = chinese_genocide
+			}
+		}
+		effect = {
+		country_event = 776405
+		any_country = {
+			limit = {
+				OR = {
+				tag = CHI
+				tag = TNG
+				tag = DAX
+				tag = SHU
+				tag = TAI
+				tag = MCK
+				tag = MIG
+				}
+			}
+			country_event = 776405
+		}
+			set_global_flag = chinese_genocide
+		}
+	}
+
+	chinese_genocide_TAI = {
+		picture = switch_to_fraternity
+		potential = {
+			tag = TAI
+			NOT = {
+				has_global_flag = chinese_genocide
+			}
+		}
+		allow = {
+			NOT = {
+				has_global_flag = chinese_genocide
+			}
+		}
+		effect = {
+		country_event = 776405
+		any_country = {
+			limit = {
+				OR = {
+				tag = CHI
+				tag = TNG
+				tag = DAX
+				tag = SHU
+				tag = TAI
+				tag = MCK
+				tag = MIG
+				}
+			}
+			country_event = 776405
+		}
+			set_global_flag = chinese_genocide
+		}
+	}
+}

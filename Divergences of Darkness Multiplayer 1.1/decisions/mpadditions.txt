@@ -1,0 +1,332 @@
+political_decisions = {
+
+	unite_the_other = {
+			picture = "aragon_italy"
+			potential = {
+				tag = ARI
+				exists = SPA
+				year = 1930
+				NOT = { has_country_flag = beeg }
+							}
+			allow = {
+				is_greater_power = yes
+				NOT = { SPA = { is_greater_power = yes } }
+				mass_politics = 1 
+			}
+			effect = {
+			set_country_flag = beeg
+  			add_accepted_culture = portuguese
+			add_accepted_culture = basque
+			badboy = 35
+			SPA = { all_core = { add_core = ARI } }
+		}	ai_will_do = { factor = 1 }
+	}
+	
+	burg_school = {
+        potential = {
+            OR = {
+                tag = BUR
+            }
+            NOT = {
+                has_country_flag = de_maurice
+            }
+        }
+        allow = {
+            army_decision_making = 1
+        }
+        effect = {
+            add_country_modifier = {
+                name = prussian_general_staff
+                duration = 6075
+            }
+            prestige = 5
+            set_country_flag = de_maurice
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                war = no
+            }
+        }
+    }
+	
+	scandi_school = {
+        potential = {
+            OR = {
+                tag = SCA
+            }
+            NOT = {
+                has_country_flag = av_malmo
+            }
+        }
+        allow = {
+            army_decision_making = 1
+        }
+        effect = {
+            add_country_modifier = { 
+                name = line_of_advantage 
+                duration = 6075
+            }
+	     add_country_modifier = { 
+                name = submarine_warfare  
+                duration = 10000
+            }
+            prestige = 5
+            set_country_flag = av_malmo
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                war = no
+            }
+        }
+    }
+	bugjin_lon = {
+			picture = meiji_court
+			potential = {
+				tag = CUR
+			NOT = { has_country_flag = kursed }
+							}
+			allow = {
+				is_greater_power = yes
+			}
+			effect = {
+			badboy = 10
+			set_country_flag = kursed
+  			add_accepted_culture = manchu
+			CHI_1553 = { add_core = THIS }
+			CHI_5 = { add_core = THIS }
+			CHI_1082 = { add_core = THIS }
+		}	ai_will_do = { factor = 1 }
+	}
+	
+	nanshin_ron = {
+			picture = meiji_court
+			potential = {
+				tag = CUR
+			NOT = { has_country_flag = jursed }
+							}
+			allow = {
+				is_greater_power = yes
+			}
+			effect = {
+			badboy = 20
+			set_country_flag = jursed
+  			add_accepted_culture = filipino
+			add_accepted_culture = min
+			add_accepted_culture = micronesian
+			1569 = {add_core = THIS}
+			1566 = {add_core = THIS}
+			1569 = {add_core = THIS}
+			1540 = {add_core = THIS}
+			1538 = {add_core = THIS}
+			1606 = {add_core = THIS}
+			1608 = {add_core = THIS}
+			1609 = {add_core = THIS}
+			1496 = {add_core = THIS}
+			1498 = {add_core = THIS}
+			1499 = {add_core = THIS}
+			2632 = {add_core = THIS}
+			CHI_2562 = { add_core = THIS }
+			SPA_2517 = { add_core = THIS }
+			AST_2527 = { add_core = THIS }
+			SPA_1455 = { add_core = THIS }
+			SPA_1459 = { add_core = THIS }
+			SPA_1463 = { add_core = THIS }
+		}	ai_will_do = { factor = 1 }
+	}
+	
+	destiny_of_the_east = {
+			picture = meiji_court
+			potential = {
+				OR = {
+				tag = KOR
+				tag = JAP
+			}
+			NOT = { has_global_flag = this_should_not_be }
+							}
+			allow = {
+				revolution_n_counterrevolution = 1 
+				is_greater_power = yes
+				KOR = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { in_sphere = THIS }
+                        }
+                    }
+                }
+				JAP = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { in_sphere = THIS }
+                        }
+                    }
+                }
+				OR = {
+				upper_house = {
+					ideology = socialist
+					value = 0.3
+				}
+				upper_house = {
+					ideology = liberal
+					value = 0.3
+				}
+				AND = {
+					upper_house = {
+						ideology = socialist
+						value = 0.20
+					}
+					upper_house = {
+						ideology = liberal
+						value = 0.20
+					}
+				}
+			}
+			}
+			effect = {
+			KOR = { all_core = { add_core = CUR } }
+			JAP = { all_core = { add_core = CUR } }
+			set_global_flag = this_should_not_be
+  			add_accepted_culture = korean
+			add_accepted_culture = ainu
+			add_accepted_culture = japanese
+			change_tag = CUR
+		}	ai_will_do = { factor = 1 }
+	}
+	
+	the_north_awakens = {
+			picture = SCA_political_union
+			potential = {
+				NOT = { has_country_flag = norwake }
+				NOT = { DUA = { is_greater_power = yes } }
+				OR = { 
+				tag = ENL
+				tag = ENG
+				tag = SCA
+				}
+			}
+			allow = {
+				is_greater_power = yes
+				NOT = { exists = DUA }	
+				SCA = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { in_sphere = THIS }
+                        }
+                    }
+                }
+				ENL = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { in_sphere = THIS }
+                        }
+                    }
+                }
+				ENG = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { in_sphere = THIS }
+                        }
+                    }
+                }
+				SCO = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { in_sphere = THIS }
+                        }
+                    }
+                }
+				IRE = {
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { in_sphere = THIS }
+                        }
+                    }
+                }
+			}
+			effect = {
+			set_country_flag = norwake
+  			add_accepted_culture = english
+			add_accepted_culture = welsh
+			add_accepted_culture = scottish
+			add_accepted_culture = irish
+			add_accepted_culture = scandinavian
+			change_tag = NSA  
+			badboy = 20
+			ENL = { all_core = { add_core = NSA } }
+			SCA = { all_core = { add_core = NSA } }
+			IRE = { all_core = { add_core = NSA } }
+			SCO = { all_core = { add_core = NSA } }
+		}	ai_will_do = { factor = 1 }
+	}
+	
+	all_of_arcadia = {
+			picture = "UniteARC"
+			potential = {
+				tag = ARC
+				NOT = { has_country_flag = trucadia }
+							}
+			allow = {
+				is_greater_power = yes
+				OR = {
+				NOT = { GCO = { is_greater_power = yes } }
+				NOT = { GCO = { is_secondary_power = yes } }
+				}
+				OR = {
+				NOT = { DNG = { is_greater_power = yes } }
+				NOT = { DNG = { is_secondary_power = yes } }
+				}
+			}
+			effect = {
+  			add_accepted_culture = mexican
+			add_accepted_culture = lusitanian
+			add_accepted_culture = qingqiuan
+			add_accepted_culture = kaiganese
+			add_accepted_culture = central_american
+			add_accepted_culture = zapotec
+			add_accepted_culture = mayan
+			add_accepted_culture = nahua
+			set_country_flag = trucadia
+			badboy = 30
+			MEX = { all_core = { add_core = ARC } }
+			DNG = { all_core = { add_core = ARC } }
+			UCA = { all_core = { add_core = ARC } }
+			LST = { all_core = { add_core = ARC } }
+			KKN = { all_core = { add_core = ARC } }
+		}	ai_will_do = { factor = 1 }
+	}
+  
+	broke_arab = {
+			picture = "the_holy_city"
+			potential = {
+				tag = ARU
+				NOT = { has_country_flag = magrabia }
+							}
+	          allow = {
+		          civilized = yes
+			}
+			effect = {
+  			add_accepted_culture = maghrebi
+			add_accepted_culture = khaliji
+			add_accepted_culture = tuareg
+			add_accepted_culture = berber
+			add_accepted_culture = nubian
+			add_accepted_culture = somali
+			add_accepted_culture = swahili
+			add_accepted_culture = nubian
+			set_country_flag = magrabia
+			MGH = { all_core = { add_core = ARU } }
+			TUN = { all_core = { add_core = ARU } }
+		
+		}	ai_will_do = { factor = 1 }
+	}
+}
