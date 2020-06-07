@@ -1558,7 +1558,7 @@ liberate_country_midgame = {
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 5
+	construction_speed = .8
 	
 	badboy_factor = 1.3
 	prestige_factor = 2
@@ -1908,7 +1908,7 @@ liberate_country_late = {
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 5
+	construction_speed = .8
 	
 	badboy_factor = 1.3
 	prestige_factor = 2

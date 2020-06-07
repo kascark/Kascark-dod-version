@@ -597,7 +597,7 @@
 	farmers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 85400
+		size = 95400
 	}
 }
 #Baker City (4000/1000 POPS)
@@ -623,7 +623,7 @@
 	farmers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 19800
+		size = 99800
 	}
 
 	clergymen = {
@@ -726,7 +726,7 @@
 	craftsmen = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 14000
+		size = 50000
 	}
   
   capitalists = {
@@ -750,7 +750,7 @@
 	artisans = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 20000
+		size = 40000
 	}
 
 	artisans = {
@@ -800,7 +800,7 @@
 	farmers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 86400
+		size = 100400
 	}
 }
 #Sacramento (12000/3000 POPS)
@@ -833,7 +833,7 @@
 	farmers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 46900
+		size = 96900
 	}
 
 	aristocrats = {
@@ -858,7 +858,7 @@
 	farmers = {
 		culture = native_american_minor
 		religion = animist
-		size = 13400
+		size = 53400
 	}
 
 	clergymen = {
@@ -1385,7 +1385,7 @@
 	farmers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 10400
+		size = 50400
 	}
 }
 #Las Vegas (4000/1000 POPS)
@@ -1417,7 +1417,7 @@
 	farmers = {
 		culture = pueblo
 		religion = animist
-		size = 7800
+		size = 20800
 	}
 
 	clergymen = {
@@ -3353,6 +3353,12 @@
 		religion = catholic
 		size = 1325
 	}
+	
+	craftsmen = {
+		culture = plantagenian
+		religion = catholic
+		size = 90000
+	}
 
 	capitalists = {
 		culture = plantagenian
@@ -3387,7 +3393,7 @@
 	artisans = {
 		culture = plantagenian
 		religion = catholic
-		size = 10000
+		size = 50000
 	}
 
 	artisans = {
@@ -3442,13 +3448,13 @@
 	farmers = {
 		culture = afro_frankish
 		religion = catholic
-		size = 18325
+		size = 38325
 	}
 
 	slaves = {
 		culture = afro_frankish
 		religion = catholic
-		size = 30000
+		size = 50000
 	}
 }
 #Baton Rouge (72000/18000 POPS)
@@ -3492,7 +3498,7 @@
 	farmers = {
 		culture = plantagenian
 		religion = catholic
-		size = 28900
+		size = 58900
 	}
 
 	clergymen = {
@@ -3616,7 +3622,7 @@
 	farmers = {
 		culture = plantagenian
 		religion = catholic
-		size = 9010
+		size = 19010
 	}
 
 	clergymen = {

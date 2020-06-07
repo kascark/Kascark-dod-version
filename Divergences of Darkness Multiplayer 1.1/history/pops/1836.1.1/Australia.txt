@@ -13,6 +13,12 @@
         religion = mahayana
         size = 60900
     }
+	
+	craftsmen = {
+		culture = ganguan
+		religion = mahayana
+		size = 50000
+	}
 
     bureaucrats = {
         culture = ganguan
@@ -73,7 +79,7 @@
     farmers = {
         culture = ganguan
         religion = mahayana
-        size = 121416
+        size = 191416
     }
 
     clergymen = {
@@ -111,7 +117,7 @@
     farmers = {
         culture = ganguan
         religion = mahayana
-        size = 73500
+        size = 93500
     }
 
     clergymen = {
@@ -179,7 +185,7 @@
     farmers = {
         culture = ganguan
         religion = mahayana
-        size = 120900
+        size = 190900
     }
 
     aristocrats = {
@@ -508,7 +514,7 @@
     farmers = {
         culture = ganguan
         religion = mahayana
-        size = 10500
+        size = 40500
     }
 }
 #Sale (8000/2000 POPS)
@@ -546,7 +552,7 @@
     farmers = {
         culture = ganguan
         religion = mahayana
-        size = 12600
+        size = 52600
     }
 }
 #Beechworth (4000/1000 POPS)
@@ -622,7 +628,7 @@
     farmers = {
         culture = ganguan
         religion = mahayana
-        size = 10800
+        size = 50800
     }
 
     officers = {
@@ -668,7 +674,7 @@
     farmers = {
         culture = aborigine
         religion = animist
-        size = 20325
+        size = 50325
     }
 
     aristocrats = {
@@ -744,7 +750,7 @@
     farmers = {
         culture = ganguan
         religion = mahayana
-        size = 46500
+        size = 56500
     }
 
     aristocrats = {
