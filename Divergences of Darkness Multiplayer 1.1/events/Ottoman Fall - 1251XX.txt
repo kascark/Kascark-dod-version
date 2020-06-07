@@ -239,13 +239,13 @@ country_event = {
 		TUR = { country_event = 125104 }
 		casus_belli = {
 				target = TUR
-				type = acquire_state_early
+				type = acquire_state
 				months = 60
 			}
 		war = {
 			target = TUR
 			attacker_goal = { 
-				casus_belli = acquire_state_early
+				casus_belli = acquire_state
 				state_province_id = 804
 				}
 			defender_goal = {
@@ -300,7 +300,7 @@ country_event = {
 		war = {
 			target = TUR
 			attacker_goal = {
-				casus_belli = acquire_state_early_early
+				casus_belli = acquire_state
 				state_province_id = 794
 			}
 
