@@ -51,6 +51,95 @@ political_decisions = {
         }
     }
 	
+	buttontomakeboyhappy = {
+        potential = {
+            OR = {
+                tag = MAC
+            }
+            NOT = {
+                has_country_flag = mak
+            }
+        }
+        allow = {
+            army_decision_making = 1
+        }
+        effect = {
+            add_country_modifier = {
+                name = prussian_general_staff
+                duration = 8075
+            }
+            prestige = 5
+            set_country_flag = mak
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                war = no
+            }
+        }
+    }
+	
+	revmilsov = {
+        potential = {
+			government = proletarian_dictatorship
+            OR = {
+                tag = RUS
+            }
+            NOT = {
+                has_country_flag = revmilsov
+            }
+        }
+        allow = {
+            army_decision_making = 1
+        }
+        effect = {
+            add_country_modifier = {
+                name = prussian_general_staff
+                duration = 6075
+            }
+            prestige = 5
+            set_country_flag = revmilsov
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                war = no
+            }
+        }
+    }
+	
+	zulus_attack = {
+        potential = {
+            OR = {
+                tag = GRQ
+				tag = ZUL
+            }
+            NOT = {
+                has_country_flag = shaka
+            }
+        }
+        allow = {
+            army_decision_making = 1
+        }
+        effect = {
+            add_country_modifier = {
+                name = prussian_general_staff
+                duration = 8075
+            }
+            prestige = 5
+            set_country_flag = shaka
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                war = no
+            }
+        }
+    }
+	
 	scandi_school = {
         potential = {
             OR = {
@@ -114,7 +203,6 @@ political_decisions = {
 			effect = {
 			badboy = 20
 			set_country_flag = jursed
-  			add_accepted_culture = filipino
 			add_accepted_culture = min
 			add_accepted_culture = micronesian
 			1569 = {add_core = THIS}
@@ -130,11 +218,6 @@ political_decisions = {
 			1499 = {add_core = THIS}
 			2632 = {add_core = THIS}
 			CHI_2562 = { add_core = THIS }
-			SPA_2517 = { add_core = THIS }
-			AST_2527 = { add_core = THIS }
-			SPA_1455 = { add_core = THIS }
-			SPA_1459 = { add_core = THIS }
-			SPA_1463 = { add_core = THIS }
 		}	ai_will_do = { factor = 1 }
 	}
 	
@@ -273,10 +356,10 @@ political_decisions = {
 			picture = "UniteARC"
 			potential = {
 				tag = ARC
-				NOT = { has_country_flag = trucadia }
+				NOT = { has_country_flag = whathaveidone }
 							}
 			allow = {
-				is_greater_power = yes
+				rank = 1
 				OR = {
 				NOT = { GCO = { is_greater_power = yes } }
 				NOT = { GCO = { is_secondary_power = yes } }
@@ -295,8 +378,8 @@ political_decisions = {
 			add_accepted_culture = zapotec
 			add_accepted_culture = mayan
 			add_accepted_culture = nahua
-			set_country_flag = trucadia
-			badboy = 30
+			set_country_flag = whathaveidone
+			badboy = 40
 			MEX = { all_core = { add_core = ARC } }
 			DNG = { all_core = { add_core = ARC } }
 			UCA = { all_core = { add_core = ARC } }

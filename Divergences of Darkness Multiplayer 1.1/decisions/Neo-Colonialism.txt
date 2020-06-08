@@ -12,16 +12,14 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { war = yes }
-			OR = {
-				ruling_party_ideology = fascist
-			}
-			OR = {
-				ruling_party_ideology = reactionary
-				AND = {
-					war_policy = jingoism
-					prestige = 100
-				}
-			}
+			 OR = {
+                ruling_party_ideology = fascist
+                ruling_party_ideology = reactionary
+                AND = {
+                    war_policy = jingoism
+                    prestige = 100
+                }
+            }
 			exists = ARC
 			VIN_2 = { owned_by = THIS }
 			VIN_3 = { owned_by = THIS }
@@ -151,16 +149,14 @@ reclaim_new_burgundy = {
 		allow = {
 			NOT = { war = yes }
 			exists = ARC
-			OR = {
-				ruling_party_ideology = fascist
-			}
-			OR = {
-				ruling_party_ideology = reactionary
-				AND = {
-					war_policy = jingoism
-					prestige = 100
-				}
-			}
+			 OR = {
+                ruling_party_ideology = fascist
+                ruling_party_ideology = reactionary
+                AND = {
+                    war_policy = jingoism
+                    prestige = 100
+                }
+            }
 			NBG_1 = { owned_by = THIS }
 			NBG_4 = { owned_by = THIS }
 			NBG_2 = { owned_by = THIS }
@@ -298,16 +294,14 @@ reclaim_crown_colony_plantagenia = {
 			NOT = { has_country_flag = reclaim_crown_colony_plantagenia }
 		}
 		allow = {
-			OR = {
-				ruling_party_ideology = fascist
-			}
-			OR = {
-				ruling_party_ideology = reactionary
-				AND = {
-					war_policy = jingoism
-					prestige = 100
-				}
-			}
+			 OR = {
+                ruling_party_ideology = fascist
+                ruling_party_ideology = reactionary
+                AND = {
+                    war_policy = jingoism
+                    prestige = 100
+                }
+            }
 			NOT = { war = yes }
 			exists = ARC
 			NBG_5 = { owned_by = THIS }

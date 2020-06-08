@@ -806,7 +806,7 @@ maginot_line = {
 	cost = 30000
 	unciv_military = yes
 	
-	max_fort = 10
+	max_fort = 5
 	
 	ai_chance = {
 		factor = 2

@@ -523,7 +523,7 @@ fleet_in_being = {
 	year = 1918
 	cost = 30000
 	unciv_military = yes
-	max_naval_base = 2
+	max_naval_base = 5
 	ai_chance = {
 		factor = 1.5
 		# Land-locked countries don't research this

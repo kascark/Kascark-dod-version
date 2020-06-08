@@ -513,7 +513,7 @@ french = {
 	leader = european
 	unit = FrenchGC
 	french = { 
-		color = {20 20 100}
+		color = {20 50 175}
 		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
 		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
@@ -553,7 +553,7 @@ french = {
 		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
 	}
 	anglois = { 
-		color = {50 20 100}
+		color = {100 50 170}
 		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
 		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
@@ -2132,7 +2132,7 @@ oversea_chinese = {
 	  unit = ChineseGC
 	  
 	  ganguan = {
-		  color = {181 106 106}
+		  color = {200 80 80}
   		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
   		}
   		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
@@ -2140,14 +2140,14 @@ oversea_chinese = {
 		}
 		
 	qingqiuan = {
-  		color = {181 106 106}
+  		color = {25 150 200}
   		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
   		}
   		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
   		}
 	  }
 	tionghoa = {
-  		color = {181 106 106}
+  		color = {145 200 200}
   		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
   		}
   		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
@@ -2395,7 +2395,7 @@ anglois_american = {
 	unit = EuropeanGC
 
 	plantagenian = { 
-		color = {20 20 100}
+		color = {55 100 150}
 		first_names = { Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant 
 		Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges 
 		Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis 
@@ -2415,7 +2415,7 @@ anglois_american = {
 	}
 
 	amazonian = { 
-		color = {20 20 100}
+		color = {50 185 50}
 		first_names = { Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant 
 		Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges 
 		Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis 
@@ -2440,7 +2440,7 @@ burgundian_american = {
 	unit = EuropeanGC
 
 	septiman = { 
-		color = { 190 90 20}
+		color = { 180 160 80}
 		first_names = { Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant 
 		Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges 
 		Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis 
@@ -2460,7 +2460,7 @@ burgundian_american = {
 	}
 
 	lotharian = { 
-		color = { 190 90 20}
+		color = { 150 110 80}
 		first_names = { Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant 
 		Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges 
 		Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis 
@@ -2520,7 +2520,7 @@ scandinavian_american = {
 	unit = EuropeanGC
 	
 	vinlander = { 
-		color = {162 17 48}
+		color = { 180 30 80}
 		first_names = { Aage Adam Alber Anders ASmund Axel Carl Christian Edvard Edvin
 		Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar
 		Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto

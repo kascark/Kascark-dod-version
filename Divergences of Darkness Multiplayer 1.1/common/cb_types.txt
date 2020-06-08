@@ -845,7 +845,7 @@ take_from_sphere = {
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 0.5
+	construction_speed = 2
 	
 	badboy_factor = 0.5
 	prestige_factor = 3
@@ -941,7 +941,7 @@ free_peoples = {
 	peace_cost_factor = 2.0
 	penalty_factor = 1
 	
-	construction_speed = 0.5
+	construction_speed = 2.5
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
@@ -2447,7 +2447,7 @@ cut_down_to_size = {
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 0.5
+	construction_speed = 1
 	
 	badboy_factor = 0.65
 	prestige_factor = 1
@@ -2573,7 +2573,7 @@ demand_reperations = {
 	peace_cost_factor = 15
 	penalty_factor = 1
 	
-	construction_speed = 0.5
+	construction_speed = 2.5
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
@@ -2606,7 +2606,7 @@ humiliate = {
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 0.5
+	construction_speed = 2.5
 	
 	badboy_factor = 0.75
 	prestige_factor = 1.5
@@ -2703,7 +2703,7 @@ place_in_the_sun = {
 	is_triggered_only = yes
 	months = 12
 
-	construction_speed = 0.5
+	construction_speed = 2
 	
 	badboy_factor = 0.5
 	prestige_factor = 2
@@ -2897,7 +2897,7 @@ acquire_state = {
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 0.5
+	construction_speed = 2
 
 	badboy_factor = 1.1
 	prestige_factor = 1.5
@@ -4547,7 +4547,7 @@ make_puppet = {
 	months = 12
 	crisis = no
 	
-	construction_speed = 0.5
+	construction_speed = 0.8
 
 	badboy_factor = 2.0
 	prestige_factor = 1
@@ -4668,7 +4668,7 @@ install_communist_gov_cb = {
 	months = 12
 	crisis = no
 	
-	construction_speed = 0.5
+	construction_speed = 0.8
 	
 	badboy_factor = 0.5
 	prestige_factor = 1
@@ -4792,7 +4792,7 @@ great_war_install_democracy = {
 	sprite_index = 19
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.8
 	crisis = no
 
 	badboy_factor = 0
@@ -4852,7 +4852,7 @@ great_war_install_fascism = {
 	sprite_index = 17
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.8
 	crisis = no
 
 	badboy_factor = 0
@@ -4906,7 +4906,7 @@ great_war_install_communism = {
 	sprite_index = 12
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.8
 	crisis = no
 
 	badboy_factor = 0
@@ -4961,7 +4961,7 @@ install_democracy = {
 	sprite_index = 19
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.8
 	crisis = no
 
 	badboy_factor = 1.5
@@ -5040,7 +5040,7 @@ install_fascism = {
 	sprite_index = 17
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.8
 	crisis = no
 
 	badboy_factor = 2
@@ -5114,7 +5114,7 @@ install_communism = {
 	sprite_index = 12
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.8
 	crisis = no
 
 	badboy_factor = 2
@@ -5193,7 +5193,7 @@ acquire_substate_region = {
 	months = 12
 	crisis = no
 	
-	construction_speed = 0.5
+	construction_speed = 0.9
 	
 	badboy_factor = 1.1
 	prestige_factor = 2
@@ -5299,7 +5299,7 @@ dismantle_forts = {
 	months = 12
 	is_triggered_only = yes
 	
-	construction_speed = 0.5
+	construction_speed = 2.5
 
 	badboy_factor = 0.125
 	prestige_factor = 0.25
@@ -5672,7 +5672,7 @@ install_fascism_make_puppet = {
 	months = 12
 	crisis = no
 	
-	construction_speed = 0.5
+	construction_speed = 0.7
 
 	badboy_factor = 2
 	prestige_factor = 1
@@ -5715,7 +5715,7 @@ install_communism_make_puppet = {
 	months = 12
 	crisis = no
 	
-	construction_speed = 0.5
+	construction_speed = 0.7
 
 	badboy_factor = 2
 	prestige_factor = 1
@@ -5797,7 +5797,7 @@ war_reparations = {
 	sprite_index = 27
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 1.5
 
 	badboy_factor = 0.125
 	prestige_factor = 0.5
@@ -6192,7 +6192,7 @@ minor_conquest = {
 	months = 12
 	crisis = no
 	
-	construction_speed = 0.5
+	construction_speed = 0.9
 	
 	can_use = {
 		this = { NOT = { badboy = 1 } }
@@ -6273,7 +6273,7 @@ take_capital = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 1
 	
 	badboy_factor = 1.5
 	prestige_factor = 10
@@ -6368,7 +6368,7 @@ take_capital_midgame = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.8
 	
 	badboy_factor = 1.5
 	prestige_factor = 10
@@ -6617,7 +6617,7 @@ make_puppet_small = {
 	months = 12
 	crisis = no
 	
-	construction_speed = 0.5
+	construction_speed = 1
 
 	badboy_factor = 1
 	prestige_factor = 1
@@ -6674,7 +6674,7 @@ make_puppet_large = {
 	months = 12
 	crisis = no
 	
-	construction_speed = 0.5
+	construction_speed = 0.8
 
 	badboy_factor = 4.0
 	prestige_factor = 1
@@ -6733,7 +6733,7 @@ dismantle_factories = {
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 0.5
+	construction_speed = 0.9
 
 	badboy_factor = 1.2
 	prestige_factor = 2.5
@@ -6796,7 +6796,7 @@ demand_concession_casus_belli_player_early = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 0
-	construction_speed = 0.5
+	construction_speed = 1.5
 	crisis = no
 	
 	badboy_factor = 0.5
@@ -6956,7 +6956,7 @@ acquire_state_midgame = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	construction_speed = 0.5
+	construction_speed = 0.8
 
 	can_use = {
 	     AND = {
@@ -7015,7 +7015,7 @@ acquire_state_late = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	construction_speed = 0.5
+	construction_speed = 0.7
 
 	can_use = {
 	     AND = {
@@ -7074,7 +7074,7 @@ total_war_state = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	construction_speed = 0.5
+	construction_speed = 3
 
 	can_use = {
 		THIS = { ai = no }
@@ -7240,7 +7240,7 @@ demand_concession_casus_belli_player_early_for_puppet = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 0
-	construction_speed = 0.5
+	construction_speed = 0.9
 	crisis = no
 		
 	badboy_factor = 0.5
@@ -7398,7 +7398,7 @@ demand_concession_casus_belli_for_puppet = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 0
-	construction_speed = 0.5
+	construction_speed = 0.9
 	crisis = no
 		
 	badboy_factor = 0.5
@@ -7638,7 +7638,7 @@ acquire_state_for_puppet = {
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 0.5
+	construction_speed = 1
 
 	badboy_factor = 1.1
 	prestige_factor = 1.5
@@ -7753,7 +7753,7 @@ acquire_state_midgame_for_puppet = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	construction_speed = 0.5
+	construction_speed = 0.7
 
 	can_use = {
 		this = { NOT = { badboy = 1 } }
@@ -7839,7 +7839,7 @@ acquire_state_late_for_puppet = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	construction_speed = 0.5
+	construction_speed = 0.6
 
 	can_use = {
 		this = { NOT = { badboy = 1 } }
@@ -7925,7 +7925,7 @@ total_war_state_for_puppet = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	construction_speed = 0.5
+	construction_speed = 3
 
 	can_use = {
 		THIS = { ai = no }
@@ -8049,7 +8049,7 @@ take_capital_for_puppet = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.8
 	
 	badboy_factor = 1.5
 	prestige_factor = 10
@@ -8146,7 +8146,7 @@ take_capital_midgame_for_puppet = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.9
 	
 	badboy_factor = 1.5
 	prestige_factor = 10
@@ -8244,7 +8244,7 @@ take_capital_late_for_puppet = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.7
 	
 	badboy_factor = 1.5
 	prestige_factor = 10
