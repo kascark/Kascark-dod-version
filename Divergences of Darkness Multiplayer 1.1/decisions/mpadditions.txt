@@ -359,30 +359,19 @@ political_decisions = {
 				NOT = { has_country_flag = whathaveidone }
 							}
 			allow = {
-				rank = 1
-				OR = {
-				NOT = { GCO = { is_greater_power = yes } }
-				NOT = { GCO = { is_secondary_power = yes } }
-				}
+				rank = 4
 				OR = {
 				NOT = { DNG = { is_greater_power = yes } }
 				NOT = { DNG = { is_secondary_power = yes } }
 				}
 			}
 			effect = {
-  			add_accepted_culture = mexican
 			add_accepted_culture = lusitanian
 			add_accepted_culture = qingqiuan
 			add_accepted_culture = kaiganese
-			add_accepted_culture = central_american
-			add_accepted_culture = zapotec
-			add_accepted_culture = mayan
-			add_accepted_culture = nahua
 			set_country_flag = whathaveidone
-			badboy = 40
-			MEX = { all_core = { add_core = ARC } }
+			badboy = 30
 			DNG = { all_core = { add_core = ARC } }
-			UCA = { all_core = { add_core = ARC } }
 			LST = { all_core = { add_core = ARC } }
 			KKN = { all_core = { add_core = ARC } }
 		}	ai_will_do = { factor = 1 }
