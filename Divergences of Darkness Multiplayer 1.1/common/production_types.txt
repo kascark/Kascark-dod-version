@@ -747,29 +747,6 @@ winery = {
 	}
 }
 
-wool_fabric_factory = {       
-	template = cheap_factory_template	#4.25
-	input_goods = {     
-		wool = 50	#20
-		dye = 2		#8	total input+maint = 36.25
-	}
-	output_goods = fabric
-	value = 24			#43.2
-	bonus = {
-		trigger = { trade_goods_in_state = wool }
-		value = 0.125
-	}
-	bonus = {
-		trigger = {
-			OR = {
-				has_building = dye_factory 
-				trade_goods_in_state = dye
-				}
-			}
-		value = 0.125
-	}
-}
-
 ############# BASIC FACTORIES 
 
 lumber_mill = {       
