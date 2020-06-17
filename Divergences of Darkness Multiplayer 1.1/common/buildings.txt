@@ -644,27 +644,6 @@ cotton_fabric_factory = {
 	pop_build_factory = yes
 }
 
-wool_fabric_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		lumber = 400
-		machine_parts = 15
-		iron = 200
-		cement = 200
-	}
-	time = 365
-	visibility = yes
-	onmap = no
-	
-	default_enabled = yes	
-	production_type = wool_fabric_factory
-	pop_build_factory = yes
-}
-
 cement_factory = {
 	type = factory
 	on_completion = factory
