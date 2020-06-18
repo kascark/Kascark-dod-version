@@ -1757,7 +1757,7 @@ submachine_guns = {
 	cost = 30000
 	unciv_military = yes
 
-	combat_width = 6
+	combat_width = 8
 	infantry = {
 		attack = 4
 		defence = 2
@@ -2637,16 +2637,16 @@ motorized_artillery	= {
 	unciv_military = yes
 	
 	artillery = {
-		attack = 1
-		defence = 1
+		attack = 2
+		defence = 2
 		supply_consumption = 0.15
 	}
 	
 	tank = {
-		attack = 9
+		attack = 8
 		defence = 4
 		reconnaissance = 1
-		maximum_speed = 4		
+		maximum_speed = 6	
 	}
 	
 	plane = {
@@ -4338,7 +4338,7 @@ total_war_philosophy = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 0.20
+		supply_consumption = 0.35
 	}
 	
 	ai_chance = {
