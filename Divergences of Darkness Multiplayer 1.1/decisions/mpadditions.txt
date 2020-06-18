@@ -102,6 +102,7 @@ political_decisions = {
 			badboy = 10
 			set_country_flag = kursed
   			add_accepted_culture = manchu
+			CHI_2562 = { add_core = THIS }
 			CHI_1553 = { add_core = THIS }
 			CHI_5 = { add_core = THIS }
 			CHI_1082 = { add_core = THIS }
