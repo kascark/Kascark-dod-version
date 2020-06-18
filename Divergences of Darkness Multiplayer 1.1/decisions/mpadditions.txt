@@ -1,27 +1,5 @@
 political_decisions = {
 
-	unite_the_other = {
-			picture = "aragon_italy"
-			potential = {
-				tag = ARI
-				exists = SPA
-				year = 1930
-				NOT = { has_country_flag = beeg }
-							}
-			allow = {
-				is_greater_power = yes
-				NOT = { SPA = { is_greater_power = yes } }
-				mass_politics = 1 
-			}
-			effect = {
-			set_country_flag = beeg
-  			add_accepted_culture = portuguese
-			add_accepted_culture = basque
-			badboy = 35
-			SPA = { all_core = { add_core = ARI } }
-		}	ai_will_do = { factor = 1 }
-	}
-	
 	buttontomakeboyhappy = {
         potential = {
             OR = {
@@ -111,38 +89,6 @@ political_decisions = {
         }
     }
 	
-	scandi_school = {
-        potential = {
-            OR = {
-                tag = SCA
-            }
-            NOT = {
-                has_country_flag = av_malmo
-            }
-        }
-        allow = {
-            army_decision_making = 1
-        }
-        effect = {
-            add_country_modifier = { 
-                name = line_of_advantage 
-                duration = 6075
-            }
-	     add_country_modifier = { 
-                name = submarine_warfare  
-                duration = 10000
-            }
-            prestige = 5
-            set_country_flag = av_malmo
-        }
-        ai_will_do = {
-            factor = 1
-            modifier = {
-                factor = 0
-                war = no
-            }
-        }
-    }
 	bugjin_lon = {
 			picture = meiji_court
 			potential = {
@@ -159,36 +105,6 @@ political_decisions = {
 			CHI_1553 = { add_core = THIS }
 			CHI_5 = { add_core = THIS }
 			CHI_1082 = { add_core = THIS }
-		}	ai_will_do = { factor = 1 }
-	}
-	
-	nanshin_ron = {
-			picture = meiji_court
-			potential = {
-				tag = CUR
-			NOT = { has_country_flag = jursed }
-							}
-			allow = {
-				is_greater_power = yes
-			}
-			effect = {
-			badboy = 20
-			set_country_flag = jursed
-			add_accepted_culture = min
-			add_accepted_culture = micronesian
-			1569 = {add_core = THIS}
-			1566 = {add_core = THIS}
-			1569 = {add_core = THIS}
-			1540 = {add_core = THIS}
-			1538 = {add_core = THIS}
-			1606 = {add_core = THIS}
-			1608 = {add_core = THIS}
-			1609 = {add_core = THIS}
-			1496 = {add_core = THIS}
-			1498 = {add_core = THIS}
-			1499 = {add_core = THIS}
-			2632 = {add_core = THIS}
-			CHI_2562 = { add_core = THIS }
 		}	ai_will_do = { factor = 1 }
 	}
 	

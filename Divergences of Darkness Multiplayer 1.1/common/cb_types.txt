@@ -7078,7 +7078,7 @@ total_war_state = {
 
 	can_use = {
 		THIS = { ai = no }
-		year = 1930
+		year = 1920
 	    NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -7131,7 +7131,7 @@ total_war_conquest = {
 	
 	can_use = {
 		THIS = { ai = no }
-		year = 1930
+		year = 1920
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -7930,7 +7930,7 @@ total_war_state_for_puppet = {
 	can_use = {
 		THIS = { ai = no }
 	     AND = {
-		   year = 1930
+		   year = 1920
 	    }
 	}
 	
