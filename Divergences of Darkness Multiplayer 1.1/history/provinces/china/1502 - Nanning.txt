@@ -3,4 +3,4 @@ controller = DAI
 add_core = CHI
 add_core = DAI
 trade_goods = fish
-life_rating = 32
+life_rating = 35

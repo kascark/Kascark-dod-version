@@ -22,35 +22,6 @@ political_decisions = {
 		}	ai_will_do = { factor = 1 }
 	}
 	
-	burg_school = {
-        potential = {
-            OR = {
-                tag = BUR
-            }
-            NOT = {
-                has_country_flag = de_maurice
-            }
-        }
-        allow = {
-            army_decision_making = 1
-        }
-        effect = {
-            add_country_modifier = {
-                name = prussian_general_staff
-                duration = 6075
-            }
-            prestige = 5
-            set_country_flag = de_maurice
-        }
-        ai_will_do = {
-            factor = 1
-            modifier = {
-                factor = 0
-                war = no
-            }
-        }
-    }
-	
 	buttontomakeboyhappy = {
         potential = {
             OR = {
@@ -352,31 +323,6 @@ political_decisions = {
 		}	ai_will_do = { factor = 1 }
 	}
 	
-	all_of_arcadia = {
-			picture = "UniteARC"
-			potential = {
-				tag = ARC
-				NOT = { has_country_flag = whathaveidone }
-							}
-			allow = {
-				rank = 4
-				OR = {
-				NOT = { DNG = { is_greater_power = yes } }
-				NOT = { DNG = { is_secondary_power = yes } }
-				}
-			}
-			effect = {
-			add_accepted_culture = lusitanian
-			add_accepted_culture = qingqiuan
-			add_accepted_culture = kaiganese
-			set_country_flag = whathaveidone
-			badboy = 30
-			DNG = { all_core = { add_core = ARC } }
-			LST = { all_core = { add_core = ARC } }
-			KKN = { all_core = { add_core = ARC } }
-		}	ai_will_do = { factor = 1 }
-	}
-  
 	broke_arab = {
 			picture = "the_holy_city"
 			potential = {
