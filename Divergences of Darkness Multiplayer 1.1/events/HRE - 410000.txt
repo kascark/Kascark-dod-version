@@ -2262,7 +2262,7 @@ country_event = {
 	
 	trigger = { 
 	tag = HLR 
-	year = 1900 
+	year = 1870 
 	owns = 576 
 	NOT = { year = 1901 }
 	}

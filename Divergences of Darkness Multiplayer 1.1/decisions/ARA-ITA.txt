@@ -139,7 +139,7 @@ political_decisions = {
 			OR = {
 				social_science = 1
 				AND = {
-					rank = 2
+					rank = 4
 					year = 1860
 				}
 			}
@@ -182,7 +182,7 @@ political_decisions = {
 			OR = {
 				phenomenology_n_hermeneutic = 1
 				AND = {
-					rank = 3
+					rank = 4
 					revolution_n_counterrevolution = 1
 				}
 			}

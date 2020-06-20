@@ -468,7 +468,7 @@ political_decisions = {
 	}
 	
 	allow = { 
-	mass_politics = 1
+	revolution_n_counterrevolution = 1 
 	NOT = { citizenship_policy = residency }
 	}
 	
@@ -489,7 +489,7 @@ political_decisions = {
 	}
 	
 	allow = {
-	mass_politics = 1 
+	revolution_n_counterrevolution = 1  
 	NOT = { citizenship_policy = residency }
 	}
 	
@@ -509,7 +509,7 @@ political_decisions = {
 	}
 	
 	allow = {
-	mass_politics = 1  
+	revolution_n_counterrevolution = 1 
 	NOT = { citizenship_policy = residency }
 	OR = { any_owned_province = { is_core = BAV } any_owned_province = { is_core = SWI } any_owned_province = { is_core = AUS } any_owned_province = { is_core = SGF } }
 	}
